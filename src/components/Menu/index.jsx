@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import MenuItem, { Item } from '../MenuItem';
 
 import menuList from './menuList';
@@ -10,8 +10,10 @@ function Menu() {
 
   const [visible, setVisible] = useState(false);
   const [menuClasses, setMenuClasses] = useState('menu');
+  const menuArea = useRef();
+  const menuButton = useRef();
 
-  function toggleMenu() {
+  const toggleMenu = () => {
     if (visible) {
       setMenuClasses('menu');
       setVisible(false);
@@ -21,14 +23,32 @@ function Menu() {
     }
   }
 
+  const handleClick = e => {
+    if (menuArea.current.contains(e.target)) {
+      return;
+    } else if (menuButton.current.contains(e.target)) {
+      return;
+    } else {
+      setMenuClasses('menu');
+      setVisible(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClick);
+    return () => {
+      document.removeEventListener("mousedown", handleClick);
+    };
+  }, []);
+
   return (
     <>
-      <button onClick={toggleMenu}>
+      <button ref={menuButton} onClick={toggleMenu}>
           <img src={dragonHead} alt="Dragon Head"/>
           <p>Iniciar</p>
       </button>
-      <ul className={menuClasses}>
-          { menuList.map((item: Item) => { 
+      <ul className={menuClasses} ref={menuArea}> 
+          { menuList.map((item) => { 
               return (
                   <MenuItem item={item} /> 
               )

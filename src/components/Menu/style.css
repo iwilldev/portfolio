@@ -35,11 +35,10 @@ button:hover{
     position: absolute;
     left: -20rem;
     top: 2.5rem;
-    transform: scale(0.0001);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .open-menu {
-    transform: scale(1) !important;
+    
     left: 0rem;
 }
