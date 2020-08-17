@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import RealTimeClock from '../RealTimeClock';
+import RealTimeClock from '../RealTimeClock/index';
 import Menu from '../Menu/index'
 
 interface TemplateBarProps {
