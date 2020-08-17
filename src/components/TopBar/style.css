@@ -1,0 +1,7 @@
+nav {
+    background: var(--vertical-black-gradient);
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
