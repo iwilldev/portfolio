@@ -1,0 +1,45 @@
+button {
+    height: 100%;
+    padding: 0.5rem;
+    padding-right: 0.75rem;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    background: var(--vertical-red-gradient);
+    border: 0;
+    border-radius: 0 0.5rem 0.5rem 0;
+    cursor: pointer;
+    transition: filter 0.5s;
+}
+
+button img {
+    height: 100%;
+    margin-right: 0.5rem;
+}
+
+button p {
+    font-size: 1rem;
+}
+
+button:hover{
+    filter: brightness(1.2);
+}
+
+.menu {
+    width: 20rem;
+    height: 25rem;
+    padding: 0;
+    background: var(--menu-background);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    left: -20rem;
+    top: 2.5rem;
+    transform: scale(0.0001);
+    transition: 1s;
+}
+
+.open-menu {
+    transform: scale(1) !important;
+    left: 0rem;
+}

@@ -1,0 +1,25 @@
+li {
+    list-style: none;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    font-size: 80%;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.5s;
+}
+
+a img {
+    height: 60px;
+    margin-bottom: 0.5rem;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
