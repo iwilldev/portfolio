@@ -1,11 +1,15 @@
 import React from 'react';
-import TopBar from '../../components/TemplateBar';
+import TemplateBar from '../../components/TemplateBar';
+import Window from '../../components/Window';
 
 import '../../App.css';
 
 function Resume() {
   return (
-      <TopBar/>
+    <>
+      <TemplateBar/>
+      <Window icon="/assets/img/icons/certificate.svg" title="Currículo" />
+    </>
   );
 }
 

@@ -5,10 +5,13 @@ import '../../App.css';
 import './style.css';
 
 function Home() {
+
+  const leftHandEmoji = '👈';
+
   return (
       <TemplateBar>
         <span>
-          <p>👈</p>
+          <p>{leftHandEmoji}</p>
           <p>Navegue pelo botão 'Iniciar'</p>
         </span>
       </TemplateBar>

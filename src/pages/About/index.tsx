@@ -1,11 +1,13 @@
 import React from 'react';
-import TopBar from '../../components/TemplateBar';
-
-import '../../App.css';
+import TemplateBar from '../../components/TemplateBar';
+import Window from '../../components/Window';
 
 function About() {
   return (
-      <TopBar/>
+    <>
+      <TemplateBar/>
+      <Window icon="/assets/img/icons/about-me.svg" title="Sobre Mim" />
+    </>
   );
 }
 
