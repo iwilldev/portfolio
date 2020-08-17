@@ -1,3 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+  background: url('./assets/img/wallpaper.png') center no-repeat;
+  background-size: cover;
+}
+
+:root {
+  --red: #ff4b4b;
+  --black: #333333;
+  --grey: #777777;
+  --white: #dddddd;
+  --extra-white: #ffffff;
+  --horizontal-black-gradient: linear-gradient(90deg, rgba(51,51,51,1) 0%, rgba(51,51,85,1) 10%, rgba(85,85,85,1) 50%, rgba(85,85,85,1) 90%, rgba(51,51,51,1) 100%);
+  --vertical-black-gradient: linear-gradient(180deg, rgba(51,51,51,1) 0%, rgba(85,85,85,1) 10%, rgba(85,85,85,1) 50%, rgba(85,85,85,1) 90%, rgba(51,51,51,1) 100%);
+  --horizontal-red-gradient: linear-gradient(90deg, rgba(255,35,35,1) 0%, rgba(255,75,75,1) 10%, rgba(255,75,75,1) 50%, rgba(255,75,75,1) 90%, rgba(255,35,35,1) 100%);
+  --vertical-red-gradient: linear-gradient(180deg, rgba(255,35,35,1) 0%, rgba(255,75,75,1) 10%, rgba(255,75,75,1) 50%, rgba(255,75,75,1) 90%, rgba(255,35,35,1) 100%);
+  --menu-background: rgba(51,51,51,1);
+}
+
+/* 
 .App {
   text-align: center;
 }
@@ -35,4 +67,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
