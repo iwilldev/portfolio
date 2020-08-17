@@ -3,7 +3,7 @@ import './style.css';
 
 function RealTimeClock() {
 
-    const [clock, setClock] = useState('');
+    const [clock, setClock] = useState('🕒');
 
     useEffect(() => {
         const clockInterval = setInterval(() => {
@@ -16,8 +16,8 @@ function RealTimeClock() {
             if (minutes < 10) {
                 minutes = "0" + minutes;
             }
-            setClock(hour+':'+minutes);
-        }, 1);
+            setClock(hour+':'+minutes+' 🕒');
+        }, 1000);
         return () => clearInterval(clockInterval);
     }, []);
 
