@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import MenuItem, { Item } from '../MenuItem';
+import MenuItem from '../MenuItem';
 
 import menuList from './menuList';
 import dragonHead from '../../assets/img/white-dragon.png';

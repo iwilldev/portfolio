@@ -1,0 +1,20 @@
+span {
+    position: absolute;
+    display: flex;
+    top: 0.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    color: var(--white);
+    font-size: x-small;
+}
+
+span p:first-child {
+    margin-right: 0.5rem;
+}
+
+@media(min-width: 700px) {
+    span {
+        display: none;
+    }   
+} 

@@ -42,3 +42,12 @@ button:hover{
     
     left: 0rem;
 }
+
+@media(max-width: 700px) {
+    button p {
+        display: none;
+    }
+    button img {
+        margin-right: 0;
+    }
+}

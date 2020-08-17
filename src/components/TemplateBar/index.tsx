@@ -3,16 +3,20 @@ import './style.css';
 import RealTimeClock from '../RealTimeClock';
 import Menu from '../Menu/index'
 
-function TopBar() {
+interface TemplateBarProps {
+  title?: string;
+}
+
+const TemplateBar: React.FunctionComponent<TemplateBarProps> = (props) => {
   return (
     <>
       <nav>
           <Menu/>
           <RealTimeClock/>
       </nav>
-      
+      {props.children}
     </>
   );
 }
 
-export default TopBar;
+export default TemplateBar;

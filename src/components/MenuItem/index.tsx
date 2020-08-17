@@ -16,10 +16,10 @@ interface MenuItemProps {
 const MenuItem: React.FunctionComponent<MenuItemProps> = ({ item }) => {
   return (
     <li>
-        <a href={item.route}>
+        <Link to={item.route}>
             <img src={item.image} alt={item.label}/>
             <p>{item.label}</p>
-        </a>
+        </Link>
     </li>
   );
 }
