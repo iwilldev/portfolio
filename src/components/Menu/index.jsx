@@ -44,13 +44,13 @@ function Menu() {
   return (
     <>
       <button ref={menuButton} onClick={toggleMenu}>
-          <img src={dragonHead} alt="Dragon Head"/>
+          <img src={dragonHead} alt="Botão Iniciar"/>
           <p>Iniciar</p>
       </button>
       <ul className={menuClasses} ref={menuArea}> 
           { menuList.map((item) => { 
               return (
-                  <MenuItem item={item} /> 
+                  <MenuItem key={item.label} item={item} /> 
               )
           })}
       </ul>
