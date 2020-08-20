@@ -3,7 +3,6 @@ import TemplateBar from '../../components/TemplateBar';
 import Window from '../../components/Window';
 
 import portfolioList from '../Portfolio/portfolioList';
-import { Link } from 'react-router-dom';
 
 import './style.css';
 
