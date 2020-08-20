@@ -33,7 +33,7 @@ const Window: React.FunctionComponent<WindowProps> = (props) => {
           alt="Fechar Janela"
         />
       </header>
-      <section>.
+      <section>
         {props.children}
       </section>
     </div>
