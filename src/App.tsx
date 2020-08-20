@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Resume from './pages/Resume';
 import Portfolio from './pages/Portfolio';
+import Project from './pages/Project';
 import Contacts from './pages/Contacts';
 
 import './App.css';
@@ -17,6 +18,7 @@ function App() {
         <Route path="/about-me" component={About} exact />
         <Route path="/resume" component={Resume} exact />
         <Route path="/portfolio" component={Portfolio} exact />
+        <Route path="/project" component={Project} />
         <Route path="/contacts" component={Contacts} exact />
       </BrowserRouter>
   );

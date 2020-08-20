@@ -28,7 +28,11 @@ const Window: React.FunctionComponent<WindowProps> = (props) => {
         <img 
           src={closeButtonImg} 
           onClick={() => {
-            history.push("/");
+            if (window.location.href.includes('project')) {
+              history.push('/portfolio')
+            } else {
+              history.push("/");
+            }
           }}
           alt="Fechar Janela"
         />

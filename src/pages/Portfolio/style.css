@@ -1,0 +1,33 @@
+.portfolio-grid {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.portfolio-grid a {
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.portfolio-grid a h3 {
+    width: 100%;
+    margin: auto 0 -1rem 0;
+    border-radius: 0 0 1rem 1rem;
+    padding: 1rem;
+    background: var(--white);
+    color: var(--black);
+    text-align: left;
+    transition: background 0.3s, color 0.3s;
+}
+
+.portfolio-grid a:hover h3 {
+    background: var(--red);
+    color: var(--white);
+}
+
+@media(max-width: 700px){
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+}
