@@ -172,7 +172,7 @@ const portfolioList = [
     {
         id: "10",
         type: "código",
-        title: "knowleed | projeto mega hack 3.0",
+        title: "knowleed | mega hack 3.0",
         description: "Projeto criado durante o Hackathon Mega Hack 3.0 da Shawee, atendendo o desafio da Árvore Educação e alcançando o Top 20 nele.",
         image: "/assets/img/portfolio/011/image01.png",
         secondTitle: "a solução",
@@ -189,7 +189,7 @@ const portfolioList = [
     {
         id: "11",
         type: "código",
-        title: "dragonflix | #ImersãoReact",
+        title: "dragonflix",
         description: "Projeto criado durante a #ImersãoReact da Alura, que consiste-se em um acervo de vídeos do YouTube escolhidos pelo usuário. Criei o Dragonflix, uma coletânea de vídeos de rock e metal.",
         image: "/assets/img/portfolio/012/image01.png",
         secondTitle: "tecnologias",
@@ -202,6 +202,40 @@ const portfolioList = [
         fourthDescription: "O projeto foi estilizado para se adequar a dispositivos móveis, mantendo seu aspecto original e ajustando alguns pontos, como o link 'Novo Vídeo', a fim de garantir uma boa experiência ao usuário.",
         fourthImage: "/assets/img/portfolio/012/image04.png",
         link: 'https://dragonflix.vercel.app/'
+    },
+    {
+        id: "12",
+        type: "código",
+        title: "codescola",
+        description: "Projeto desenvolvido na segunda edição da NLW, envolvendo React, React Native, Node.js e Typescript. A codEscola é uma plataforma para integrar alunos e professores de programação",
+        image: "/assets/img/portfolio/013/image01.png",
+        secondTitle: "responsividade",
+        secondDescription: "O site foi construído com os princípios do mobile-first, com um design inicialmente voltado para os dispositivos móveis, que se adaptava a grandes telas, através de media queries na estilização dos componentes.",
+        secondImage: "/assets/img/portfolio/013/image02.png",
+        thirdTitle: "móvel",
+        thirdDescription: "E além da aplicação Web, foi desenvolvida uma aplicação móvel, em React Native, permitindo que os alunos pudessem pesquisar os professores disponíveis, inclusive salvando os seus favoritos.",
+        thirdImage: "/assets/img/portfolio/013/image03.png",
+        fourthTitle: "back-end",
+        fourthDescription: "A 'cozinha' da aplicação ficou por conta do TypeScript, que foi usado no template do projeto, além de uma Restful API feita em Node.js, para interface entre os bancos de dados da aplicação e as aplicações web e móvel",
+        fourthImage: "/assets/img/portfolio/013/image04.png",
+        link: 'https://github.com/euwilliamgoncalves/codescola_webapp_nlw2/'
+    },
+    {
+        id: "13",
+        type: "código",
+        title: "rm geradores",
+        description: "Site institucional da RM Geradores, criado em formato 'one page layout'. A ideia por trás desse trabalho visava criar algo que fosse funcional e passasse uma mensagem rápida e direta, sem tomar muito tempo dos clientes.",
+        image: "/assets/img/portfolio/014/image01.png",
+        secondTitle: "dinâmico",
+        secondDescription: "A seção de serviços conta com um script que exibe de forma dinâmica as informações referentes a cada tópico, sem a necessidade de redirecionar o cliente para outra(s) página(s).",
+        secondImage: "/assets/img/portfolio/014/image02.png",
+        thirdTitle: "call to action",
+        thirdDescription: "Indo contra o usual do segmento, que costuma usar textos estáticos para as informações de contato, a RM conta com botões funcionais que levam os visitantes em contato direto com a equipe.",
+        thirdImage: "/assets/img/portfolio/014/image03.png",
+        fourthTitle: "mobile-first",
+        fourthDescription: "A página foi criada com os princípios de 'mobile-first, para que o uso dela fosse otimizado em dispositivos móveis, melhorando a usabilidade e a experiência dos clientes, parceiros e colaboradores.",
+        fourthImage: "/assets/img/portfolio/014/image04.png",
+        link: 'https://rmgeradores.com.br/'
     },
 ]
 
