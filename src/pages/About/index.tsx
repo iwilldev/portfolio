@@ -5,6 +5,8 @@ import Window from '../../components/Window';
 import profilePic from '../../assets/img/pages/about/profile.jpeg';
 import mageHatImage from '../../assets/img/pages/about/mago.jpg';
 
+import './style.css';
+
 function About() {
 
   const descriptionA = `Desenvolvedor em Formação, apaixonado por Front-End e Design, com estudos no desenvolvimento web, desde HTML, CSS e JavaScript, até React, Angular e Vue, além de conceitos de Design, UI, UX, usabilidade e acessibilidade.`;
