@@ -11,18 +11,8 @@ const menuList = [
     },
     {
         image: '/assets/img/icons/devices.svg',
-        label: 'Projetos (Web/Código)',
-        route: '/code-projects'
-    },
-    {
-        image: '/assets/img/icons/game.svg',
-        label: 'Games',
-        route: '/game-projects'
-    },
-    {
-        image: '/assets/img/icons/ink.svg',
-        label: 'Design',
-        route: '/design-projects'
+        label: 'Portfolio',
+        route: '/portfolio'
     },
     {
         image: '/assets/img/icons/contact.svg',

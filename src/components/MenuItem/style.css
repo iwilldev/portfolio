@@ -3,9 +3,10 @@ li {
 }
 
 a {
+    height: 5rem;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     padding: 1rem;
@@ -21,5 +22,5 @@ a img {
 }
 
 a:hover {
-    transform: scale(1.1);
+    background: var(--dark-red);
 }
