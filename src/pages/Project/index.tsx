@@ -16,11 +16,12 @@ function Project() {
   useEffect(() => {
     setProjectId(id);
     portfolioList.map((item) => {
-      if (item.id == projectId) {
+      if (item.id === projectId) {
         setProjectTitle(item.title);
+        return;
       }
     })
-  });
+  }, [id, projectId]);
 
   return (
     <>
