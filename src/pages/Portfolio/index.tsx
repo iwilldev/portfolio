@@ -40,7 +40,7 @@ function Portfolio() {
               {portfolioList.map((item) => {
                 if (item.type == 'design') {
                   return (
-                    <Link key={item.id} to={'/project/#/'+item.id} style={{background: `url(${item.image})`, backgroundPosition: 'center top', backgroundSize: 'cover'}}>
+                    <Link key={item.id} to={'/project/'+item.id} style={{background: `url(${item.image})`, backgroundPosition: 'center top', backgroundSize: 'cover'}}>
                       <h3>{item.title}</h3>
                     </Link>
                   )
