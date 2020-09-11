@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import MenuItem from '../MenuItem';
 
 import menuList from './menuList';
-import dragonHead from '../../assets/img/white-dragon.png';
+import buttonImg from '../../assets/img/logo.png';
 
 import './style.css';
 
@@ -43,9 +43,9 @@ function Menu() {
 
   return (
     <>
-      <button ref={menuButton} onClick={toggleMenu}>
-          <img src={dragonHead} alt="Botão Iniciar"/>
-          <p>Iniciar</p>
+      <button className="menu-button" ref={menuButton} onClick={toggleMenu}>
+          <img src={buttonImg} alt="Ícone do Botão do Menu"/>
+          <p>Menu</p>
       </button>
       <ul className={menuClasses} ref={menuArea}> 
           { menuList.map((item) => { 

@@ -15,9 +15,9 @@ interface MenuItemProps {
 
 const MenuItem: React.FunctionComponent<MenuItemProps> = ({ item }) => {
   return (
-    <li>
+    <li className="menu-item">
+        <div className="menu-background" style={{background: `url(${item.image}) no-repeat center`, backgroundSize: `50%`, opacity: '0.1'}}></div>
         <Link to={item.route}>
-            <img src={item.image} alt={item.label}/>
             <p>{item.label}</p>
         </Link>
     </li>

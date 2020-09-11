@@ -22,14 +22,14 @@ const Window: React.FunctionComponent<WindowProps> = (props) => {
 
   return (
     <div className={windowClasses}>
-      <header>
+      <header className="window-header">
         <img src={props.icon} alt="Sobre Mim"/>
         <p>{props.title}</p>
         <img 
           src={closeButtonImg} 
           onClick={() => {
             if (window.location.href.includes('project')) {
-              history.push('/portfolio')
+              history.goBack();
             } else {
               history.push("/");
             }
