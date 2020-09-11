@@ -1,42 +1,65 @@
-.content > p {
-    text-align: center;
-    margin-bottom: 2rem;
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 6rem 6rem 6rem;
 }
 
-.content > p > span.red {
-    all: unset;
-    padding: 0.2rem;
+@media(max-width: 700px) {
+    .contact-content {
+        padding: 0 2rem 2rem 2rem;
+    }
+}
+
+.contact-header {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0 -6rem;
+    margin-bottom: 3rem;
+    background: var(--dark-blue);
     color: var(--white);
-    border-radius: 0.5rem;
-    background: var(--dark-red);
+    padding: 6rem;
+    padding-bottom: 1.5rem;
+}
+
+.contact-header p {
+    margin-right: auto;
+    margin-top: 1rem;
 }
 
 .contact-container {
-    width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
     margin-bottom: 1rem;
 }
 
 .contact-container a {
+    text-decoration: none;
+    cursor: pointer;
     display: flex;
+    max-width: 100%;
     flex-direction: row;
     justify-content: space-between;
-    background: var(--darker-white);
+    background: var(--extra-dark-blue);
+    color: var(--white);
     backdrop-filter: opacity;
-    max-height: 4rem;
-    border-radius: 1rem;
+    height: 5rem;
+    transition: background 0.5s, color 0.5s;
 }
 
-.contact-container a:hover {
-    transform: scale(1.02);
+.contact-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .contact-container a h1,
 .contact-container a p {
-    color: black;
     text-align: right;
+    margin: unset;
+    margin-right: 0.5rem;
 }
 
 .contact-container a h1 {
@@ -44,8 +67,14 @@
 }
 
 .contact-container a img {
-    width: 20%;
-    margin: auto 0;
+    height: 3rem;
+    padding: 1rem;
+    background: var(--white);
+}
+
+.contact-container a:hover {
+    background: var(--white);
+    color: var(--dark-blue);
 }
 
 @media(max-width: 1200px) {

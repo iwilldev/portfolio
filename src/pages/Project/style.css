@@ -1,7 +1,21 @@
+.project-content {
+    padding: 0 6rem 6rem 6rem;
+    color: var(--white);
+    width: 100%;
+}
 
+.project-header {
+    width: 100%;
+    display: flex;
+    margin: 0 -6rem;
+    margin-bottom: 3rem;
+    background: var(--dark-blue);
+    padding: 6rem;
+    padding-bottom: 1rem;
+}
 
 .project-grid .fragment {
-    margin: 2rem 0;
+    margin: 3rem 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -16,14 +30,14 @@
 }
 
 .project-grid a {
-    all: unset;
+    text-decoration: none;
     margin-top: 1rem;
     height: 2rem;
     padding: 0 1rem;
     width: max-content;
     border-radius: 1rem;
-    background: var(--darker-white);
-    color: var(--black);
+    background: var(--dark-blue);
+    color: var(--white);
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -31,8 +45,8 @@
 }
 
 .project-grid a:hover {
-    background: var(--dark-red);
-    color: var(--white);
+    background: var(--white);
+    color: var(--extra-dark-blue);
 }
 
 @media(max-width: 900px) {
@@ -48,9 +62,5 @@
         max-width: 500px;
         margin: 0 auto;
         margin-top: 2rem;
-    }
-    .project-header {
-        display: flex;
-        justify-content: space-around;
     }
 }

@@ -9,12 +9,26 @@ function Home() {
   const leftHandEmoji = '👈';
 
   return (
+    <>
       <TemplateBar>
-        <span>
+        <span className="bar-span">
           <p>{leftHandEmoji}</p>
-          <p>Navegue pelo botão 'Iniciar'</p>
+          <p>Use o menu</p>
         </span>
       </TemplateBar>
+      <div className="home-container">
+        <h1>
+          Front-End<br/>Design<br/>UI/UX
+        </h1>
+        <h2>William Gonçalves</h2>
+        <p>
+          <q>Se você pensa que pode ou sonha que pode, comece. Ousadia tem genialidade, poder e mágica. Ouse fazer e o poder lhe será dado.</q><br/>
+          <i>Johann Goethe</i>
+        </p>
+      </div>
+      
+    </>
+      
   );
 }
 

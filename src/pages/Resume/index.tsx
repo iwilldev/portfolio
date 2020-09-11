@@ -19,11 +19,11 @@ function Resume() {
     <>
       <TemplateBar/>
       <Window icon="/assets/img/icons/certificate.svg" title="Currículo">
-        <div className="content">
+        <div className="resume-content">
           <div className="experience-container">
             <div className="experience-header">
               <img src={suitCaseImg} alt="Ícone de mala corporativa"/>
-              <h1>Experiência</h1>
+              <h1>EXPERIÊNCIA</h1>
             </div>
             { experienceList.map((item) => { 
                 return (
@@ -38,7 +38,7 @@ function Resume() {
           <div className="stacks-container">
             <div className="stacks-header">
               <img src={desktopImg} alt="Ícone de um desktop"/>
-              <h1>Habilidades</h1>
+              <h1>HABILIDADES</h1>
             </div>
             <div className="stack-grid">
               { stacksList.map((item) => { 
@@ -51,14 +51,14 @@ function Resume() {
               })}
             </div>
           </div>
-          <div className="formation-container">
-            <div className="formation-header">
+          <div className="formation-header">
               <img src={licenseImg} alt="Ícone de um desktop"/>
-              <h1>Formações</h1>
-            </div>
+              <h1>FORMAÇÕES</h1>
+          </div>
+          <div className="formation-container">  
             { formationList.map((item) => { 
                 return (
-                  <div key={item.logo} className="formation-item">
+                  <div key={item.title} className="formation-item">
                     <img src={item.logo} alt={'Logo da ' + item.school}/>
                     <h3>{item.title}</h3>
                     <p>{item.school}</p>

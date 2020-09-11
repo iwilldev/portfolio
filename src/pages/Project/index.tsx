@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import TemplateBar from '../../components/TemplateBar';
 import Window from '../../components/Window';
 
-import portfolioList from '../Portfolio/portfolioList';
+import portfolioList from './portfolioList';
 
 import './style.css';
 
@@ -18,7 +18,6 @@ function Project() {
     portfolioList.map((item) => {
       if (item.id === projectId) {
         setProjectTitle(item.title);
-        return;
       }
     })
   }, [id, projectId]);
@@ -26,8 +25,8 @@ function Project() {
   return (
     <>
       <TemplateBar/>
-      <Window icon="/assets/img/icons/devices.svg" title={projectTitle}>
-        <div className="content">
+      <Window icon="/assets/img/icons/ink.svg" title={projectTitle}>
+        <div className="project-content">
           <div className="project-container">
             <div className="project-header">
               <h1>{projectTitle}</h1>
@@ -35,7 +34,7 @@ function Project() {
             <div className="project-grid">
               {
                 portfolioList.map((item) => {
-                  if (item.id == projectId) {
+                  if (item.id === projectId) {
                     return (
                       <div key={item.id} className="fragment">
                         <img src={item.image} alt={'Imagem do projeto' + item.title}/>

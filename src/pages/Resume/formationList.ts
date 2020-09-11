@@ -10,7 +10,7 @@ const formationList = [
         link: '',
     },
     {
-        logo: 'assets/img/pages/resume/dio.svg',
+        logo: 'assets/img/pages/resume/nodejs-dio.png',
         title: 'Desenvolvimento Node.js (120h)',
         school: 'Digital Innovation One',
         content: 'JavaScript Avançado, Desafios de Código, APIs, Node.js, Express, Arquitetura Serverless, Background Jobs, Processamento Assíncrono, PostgreSQL, Desenvolvimento Back-End',
@@ -19,7 +19,7 @@ const formationList = [
         link: '',
     },
     {
-        logo: 'assets/img/pages/resume/dio.svg',
+        logo: 'assets/img/pages/resume/html-dio.png',
         title: 'HTML Web Developer (27h)',
         school: 'Digital Innovation One',
         content: 'HTML5, CSS3, JavaScript, CSS Flexbox, Responsividade, Layouts, jQuery',
@@ -28,7 +28,7 @@ const formationList = [
         link: '',
     },
     {
-        logo: 'assets/img/pages/resume/dio.svg',
+        logo: 'assets/img/pages/resume/cloud-dio.png',
         title: 'Cloud Computing & Serverless (10h)',
         school: 'Digital Innovation One',
         content: 'Fundamentos da Computação em Nuvem, Fundamentos do Azure, Introdução aos Conceitos de Serverless e Azure Functions, Desenvolvimento de software com Azure Static Web Apps e GitHub Actions',
@@ -37,7 +37,7 @@ const formationList = [
         link: 'https://drive.google.com/file/d/1S-12a5AHkttkwOeuyWacGU9yJBTyj7TY/view?usp=sharing',
     },
     {
-        logo: 'assets/img/pages/resume/dio.svg',
+        logo: 'assets/img/pages/resume/reactjs-dio.png',
         title: 'Desenvolvedor Front-End ReactJS (87h)',
         school: 'Digital Innovation One',
         content: 'Lógica de Programação, Git, GitHub, Arquitetura de Sistemas, HTML5, CSS3, Bootstrap, JavaScript ES6, ReactJS, TypeScript, Redux',

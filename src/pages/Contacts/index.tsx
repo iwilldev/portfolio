@@ -10,8 +10,11 @@ function Contacts() {
     <>
       <TemplateBar/>
       <Window icon="/assets/img/icons/contact.svg" title="Contatos">
-        <div className="content">
-        <p>Olá, visitante! Se você veio do Instagram, ou de outro caminho, através do meu link de contato, pode ver meu portfólio e currículo, na barra acima, através do <span className="red">'Iniciar'</span>.</p>
+        <div className="contact-content">
+          <div className="contact-header">
+            <h1>CONTATOS</h1>
+            <p>Olá, visitante! Se você veio do Instagram, ou de outro caminho, através do meu link de contato, pode ver meu portfólio e currículo, na barra acima, através do 'Menu'</p>
+          </div>
           <div className="contact-container">
           { contactsList.map((item) => { 
               return (

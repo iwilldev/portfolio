@@ -1,24 +1,30 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Mono', monospace;
+h1, h2, h3, h4, h5, h6, q {
+  font-family: 'Kufam', cursive;
+  font-weight: 600;
+}
+
+p, a {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 24px;
 }
 
 html,
 body,
 #root {
   height: 100%;
-  background: url('./assets/img/wallpaper.png') center no-repeat;
+  background: url('./assets/img/wallpaper.png') top no-repeat;
   background-size: cover;
 }
 
 :root {
   --red: #ff4b4b;
   --dark-red: #dd2b2baa;
+  --extra-black: #000000;
   --black: #333333;
   --grey: #555555;
   --darker-white: #ccccccaa;
@@ -28,7 +34,11 @@ body,
   --vertical-black-gradient: linear-gradient(180deg, rgba(51,51,51,1) 0%, rgba(85,85,85,1) 10%, rgba(85,85,85,1) 50%, rgba(85,85,85,1) 90%, rgba(51,51,51,1) 100%);
   --horizontal-red-gradient: linear-gradient(90deg, rgba(255,35,35,1) 0%, rgba(255,75,75,1) 10%, rgba(255,75,75,1) 50%, rgba(255,75,75,1) 90%, rgba(255,35,35,1) 100%);
   --vertical-red-gradient: linear-gradient(180deg, rgba(255,35,35,1) 0%, rgba(255,75,75,1) 10%, rgba(255,75,75,1) 50%, rgba(255,75,75,1) 90%, rgba(255,35,35,1) 100%);
-  --menu-background: rgba(51,51,51,1);
+  --menu-background: #333333fa;
+  --dark-blue: #1373b7;
+  --extra-dark-blue: #0e5e97;
+  --light-blue: #2ea9dc;
+  --menu-dark-blue: #1373b7aa;
 }
 
 /* 
