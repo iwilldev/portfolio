@@ -23,7 +23,7 @@ function About() {
                 Carioca, natural da Zona Norte (Alô, Andaraí!), mas vivente da Oeste, há mais de 15 anos. Flamenguista roxo, desde os tempos de sofrência. Pai de um príncipe de 3 anos que me enche de orgulho e me mostra como A Vida é Bela e digna de um Oscar, como Roberto Benigni.<br/><br/>
                 Canhoto nascido na Primavera de 1988, que desde cedo fez jus a fama dos 'left-handed', com ótima noção espacial, criatividade e tendência as atividades artísticas. Os astros, na hora registrada em certidão, garantiram intensidade, determinação, inconformismo, espontaneidade, livre-pensamento, grande imaginação e sensibilidade. Mas esse papo a gente deixa pra quem curte.<br/><br/>
                 Designer "autodidata" (entre aspas, porque desde o advento da internet, ninguém aprende nada sozinho...hahaha) há tanto tempo que já nem sei o quanto, mas oficialmente atuante desde 2016, quando comecei a levar o tal talento mais a sério <br/><br/>
-                Desenvolvedor em Formação, apaixonado por Front-End e Design, com estudos no desenvolvimento web, desde HTML, CSS e JavaScript, até React, Angular e Vue, além de conceitos de Design, UI, UX, usabilidade e acessibilidade. <br/><br/>
+                Desenvolvedor em Formação, apaixonado por Front-End e Design, com estudos focados no desenvolvimento web, desde HTML, CSS e JavaScript, até React, Angular e Vue, além de conceitos de Design, UI, UX, usabilidade e acessibilidade. <br/><br/>
                 Sabe o cara que você busca pra pensar o não óbvio em seus projetos e chegar a um resultado de encher os olhos? Esse cara sou eu! (São tantas emoções, bicho!)
               </p>
             </div>
