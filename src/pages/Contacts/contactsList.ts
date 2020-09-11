@@ -19,9 +19,9 @@ const contactList = [
     },
     {
         image: '/assets/img/pages/contacts/instagram.svg',
-        label: '@magodocss',
+        label: '@william.mago',
         action: 'Instagram',
-        link: 'https://www.instagram.com/magodocss'
+        link: 'https://www.instagram.com/william.mago'
     },
     {
         image: '/assets/img/pages/contacts/linkedin.svg',
