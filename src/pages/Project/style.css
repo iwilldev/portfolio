@@ -5,7 +5,7 @@
 }
 
 .project-header {
-    width: 100%;
+    width: 100vw;
     display: flex;
     margin: 0 -6rem;
     margin-bottom: 3rem;
@@ -35,7 +35,6 @@
     height: 2rem;
     padding: 0 1rem;
     width: max-content;
-    border-radius: 1rem;
     background: var(--dark-blue);
     color: var(--white);
     display: flex;

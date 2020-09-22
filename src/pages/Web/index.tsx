@@ -23,8 +23,8 @@ function Portfolio() {
               {portfolioList.map((item) => {
                 if (item.type === 'código') {
                   return (
-                    <Link key={item.id} to={'/project/'+item.id} style={{background: `url(${item.image})`, backgroundPosition: 'top', backgroundSize: 'cover'}}>
-                      <h3>{item.title}</h3>
+                    <Link key={item.id} to={'/project/'+item.id} style={{background: `url(${item.image})`, backgroundColor: '#fafafa', backgroundPositionY: 'calc(50% - 1.5rem)', backgroundPositionX: 'center', backgroundSize: '75%', backgroundRepeat: 'no-repeat'}}>
+                      <h5>{item.title}</h5>
                     </Link>
                   )
                 }

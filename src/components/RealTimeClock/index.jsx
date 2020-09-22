@@ -23,7 +23,7 @@ function RealTimeClock() {
 
     return (
         <div className="clock">
-            <h4>{clock}</h4>
+            <p>{clock}</p>
         </div>
     );
 }

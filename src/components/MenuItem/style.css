@@ -19,7 +19,6 @@
     display: flex;
     text-align: center;
     text-decoration: none;
-    font-size: 125%;
     color: white;
     background-size: 10%;
     border: solid 0.1px var(--dark-blue);
@@ -38,15 +37,10 @@
     background: var(--menu-dark-blue);
 }
 
-@media(max-width: 700px) {
-    .menu-item a {
-        font-size: 100%;
-    }
-}
+
 
 @media(max-height: 500px) {
     .menu-item a {
         background-size: 10%;
-        font-size: 100%;
     }
 }

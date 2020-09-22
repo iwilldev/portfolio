@@ -44,7 +44,8 @@ function Menu() {
   return (
     <>
       <button className="menu-button" ref={menuButton} onClick={toggleMenu}>
-          <img src={buttonImg} alt="Ícone do Botão do Menu"/>
+          <i className="menu-button-icon"></i>
+          {/* <img src={buttonImg} alt="Ícone do Botão do Menu"/> */}
           <p>Menu</p>
       </button>
       <ul className={menuClasses} ref={menuArea}> 

@@ -2,7 +2,7 @@ const portfolioList = [
     {
         id: "moovit",
         type: "design",
-        title: "moovit | mapa RJ (2017)",
+        title: "moovit",
         description: "Projeto desenvolvido em parceira para com a Moovit que disponibilizou, em seu aplicativo oficial, um mapa das linhas de transporte em massa da região metropolitana do Rio.",
         image: "/assets/img/portfolio/008/image01.png",
         secondTitle: "rotas na palma da mão",
@@ -14,12 +14,12 @@ const portfolioList = [
         fourthTitle: "do relevante ao essencial",
         fourthDescription: "O mapa destacava, inclusive, as estações que tinham recursos de acessibilidade, visando o conforto e bem estar dos usuários. O mapa ficou disponível durante mais de um ano, até sofrer alterações e ser substituído pelo mapa oficial da Prefeitura do Rio.",
         fourthImage: "/assets/img/portfolio/008/image04.png",
-        link: "assets/files/001.pdf"
+        link: "https://omagotemum.site/assets/files/001.pdf"
     },
     {
         id: "karioka",
         type: "design",
-        title: "karioka | logo",
+        title: "karioka",
         description: "Estamparia com temática voltada para a cultura pop do Rio de Janeiro. Foi minha marca por mais de três anos, até o projeto da estamparia ser iniciado.",
         image: "/assets/img/portfolio/001/image01.png",
         secondTitle: "construção",
@@ -36,7 +36,7 @@ const portfolioList = [
     {
         id: "horus",
         type: "design",
-        title: "horus | logo",
+        title: "horus",
         description: "Consultoria em energia, eletricidade e serviços associados.",
         image: "/assets/img/portfolio/002/image01.png",
         secondTitle: "construção",
@@ -53,7 +53,7 @@ const portfolioList = [
     {
         id: "revoar",
         type: "design",
-        title: "revoar | naming e logo",
+        title: "revoar",
         description: "Agência de turismo e eventos. O nome é uma analogia ao francês 'revoir', além de significar 'voar de novo' (re-voar).",
         image: "/assets/img/portfolio/003/image01.png",
         secondTitle: "construção",
@@ -70,7 +70,7 @@ const portfolioList = [
     {
         id: "elevestebem",
         type: "design",
-        title: "ele veste bem | logo",
+        title: "ele veste bem",
         description: "Blog de moda.",
         image: "/assets/img/portfolio/004/image01.png",
         secondTitle: "construção",
@@ -87,7 +87,7 @@ const portfolioList = [
     {
         id: "greencoast",
         type: "design",
-        title: "greencoast | logo",
+        title: "greencoast",
         description: "Serviços em eletricidade, energia, projetos e manutenção.",
         image: "/assets/img/portfolio/005/image01.png",
         secondTitle: "construção",
@@ -104,7 +104,7 @@ const portfolioList = [
     {
         id: "carregadodeaxe",
         type: "design",
-        title: "carregado de axé | logo",
+        title: "carregado de axé",
         description: "Loja virtual de artigos culturais e religiosos (projeto em andamento).",
         image: "/assets/img/portfolio/006/image01.png",
         secondTitle: "construção",
@@ -121,7 +121,7 @@ const portfolioList = [
     {
         id: "convivencia",
         type: "design",
-        title: "convivência | logo",
+        title: "convivência",
         description: "Atêlie/projeto cultural formado por artistas portadores da Síndrome de Down.",
         image: "/assets/img/portfolio/007/image01.png",
         secondTitle: "construção",
@@ -172,7 +172,7 @@ const portfolioList = [
     {
         id: "ecoleta",
         type: "código",
-        title: "ecoleta | site",
+        title: "ecoleta",
         description: "Criado na trilha Starter da primeira #NextLevelWeek da Rocketseat, o Ecoleta é um marketplace de coleta de resíduos. Para esse projeto, utilizamos JavaScript, CSS, HTML, Node.js, Express, Nunjucks e SQLite.",
         image: "/assets/img/portfolio/009/image01.png",
         secondTitle: "busca por localidade",
@@ -189,7 +189,7 @@ const portfolioList = [
     {
         id: "bootstrap",
         type: "código",
-        title: "bootstrap | site",
+        title: "bootstrap",
         description: "Essa página foi criada para exercitar os conhecimentos adquiridos no curso de Bootstrap da Digital Innovation One, ministrado pelo professor Rafael Galleani.",
         image: "/assets/img/portfolio/010/image01.png",
         secondTitle: "objetivo",
@@ -206,7 +206,7 @@ const portfolioList = [
     {
         id: "knowleed",
         type: "código",
-        title: "knowleed | mega hack 3.0",
+        title: "knowleed",
         description: "Projeto criado durante o Hackathon Mega Hack 3.0 da Shawee, atendendo o desafio da Árvore Educação e alcançando o Top 20 nele.",
         image: "/assets/img/portfolio/011/image01.png",
         secondTitle: "a solução",

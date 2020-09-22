@@ -21,7 +21,7 @@ function Contacts() {
                 <a key={item.action} href={item.link}>
                   <img src={item.image} alt={item.action}/>
                   <div className="contact-description">
-                    <h1>{item.label}</h1>
+                    <h5>{item.label}</h5>
                     <p>{item.action}</p>
                   </div>
                 </a>

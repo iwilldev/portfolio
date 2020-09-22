@@ -18,13 +18,14 @@
 }
 
 .window-header {
-    background: var(--light-blue);
+    border: 1px solid var(--dark-blue);
+    background: #1373B71a;
     position: absolute;
-    margin-top: 0.25rem;
-    height: 2rem;
+    margin: 1px;
+    height: calc(2.5rem - 2px);
     width: calc(100vw - 50%);
     max-width: 20rem;
-    left: 6.1rem;
+    left: 6rem;
     padding: 0 0 0 0.5rem;
     display: flex;
     align-items: center;
@@ -44,10 +45,11 @@
 
 .window-header img:last-child {
     cursor: pointer;
+    filter: brightness(1.1);
 }
 
 .window-header img:last-child:hover {
-    filter: brightness(1.1);
+    filter: brightness(1.5);
 }
 
 .window-box section {
@@ -57,10 +59,4 @@
     background: var(--black);
     overflow: scroll;
     overflow-x: hidden;
-}
-
-@media(max-width: 700px) {
-    .window-header {
-        left: 2.75rem;
-    }
 }

@@ -20,11 +20,11 @@ function Resume() {
       <TemplateBar/>
       <Window icon="/assets/img/icons/certificate.svg" title="Currículo">
         <div className="resume-content">
-          <div className="experience-container">
-            <div className="experience-header">
+          <div className="experience-header">
               <img src={suitCaseImg} alt="Ícone de mala corporativa"/>
               <h1>EXPERIÊNCIA</h1>
-            </div>
+          </div>
+          <div className="experience-container">
             { experienceList.map((item) => { 
                 return (
                   <div key={item.title} className="experience-item">
@@ -35,11 +35,11 @@ function Resume() {
                 )
             })}
           </div>
-          <div className="stacks-container">
-            <div className="stacks-header">
+          <div className="stacks-header">
               <img src={desktopImg} alt="Ícone de um desktop"/>
               <h1>HABILIDADES</h1>
-            </div>
+          </div>
+          <div className="stacks-container">
             <div className="stack-grid">
               { stacksList.map((item) => { 
                   return (

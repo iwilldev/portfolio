@@ -5,7 +5,7 @@ import Window from '../../components/Window';
 import portfolioList from '../Project/portfolioList';
 import { Link } from 'react-router-dom';
 
-import './style.css';
+import '../Web/style.css';
 
 function Design() {
 
@@ -18,13 +18,12 @@ function Design() {
             <h1>Design</h1>
           </div>
           <div className="code-container">
-            
             <div className="code-grid">
               {portfolioList.map((item) => {
                 if (item.type === 'design') {
                   return (
-                    <Link key={item.id} to={'/project/'+item.id} style={{background: `url(${item.image})`, backgroundPosition: 'top', backgroundSize: 'cover'}}>
-                      <h3>{item.title}</h3>
+                    <Link key={item.id} to={'/project/'+item.id} style={{background: `url(${item.image})`, backgroundColor: '#fafafa', backgroundPositionY: 'calc(50% - 1.5rem)', backgroundPositionX: 'center', backgroundSize: '75%', backgroundRepeat: 'no-repeat'}}>
+                      <h5>{item.title}</h5>
                     </Link>
                   )
                 }

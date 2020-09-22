@@ -17,7 +17,7 @@
     align-items: left;
     margin: 0 -6rem;
     margin-bottom: 3rem;
-    background: var(--dark-blue);
+    background: var(--extra-black);
     color: var(--white);
     padding: 6rem;
     padding-bottom: 1.5rem;
@@ -55,19 +55,15 @@
     justify-content: space-around;
 }
 
-.contact-container a h1,
+.contact-container a h5,
 .contact-container a p {
     text-align: right;
-    margin: unset;
-    margin-right: 0.5rem;
-}
-
-.contact-container a h1 {
-    font-size: medium;
+    font-weight: 400;
+    margin: 0 0.5rem;
 }
 
 .contact-container a img {
-    height: 3rem;
+    height: 100%;
     padding: 1rem;
     background: var(--white);
 }
@@ -86,8 +82,5 @@
 @media(max-width: 800px) {
     .contact-container {
         grid-template-columns: 1fr;
-    }
-    .contact-container a h1 {
-        font-size: small;
     }
 }
