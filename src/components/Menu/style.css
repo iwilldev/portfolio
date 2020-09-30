@@ -40,11 +40,6 @@
     content: '';
 }
 
-.menu-button img {
-    height: 100%;
-    margin-right: 0.5rem;
-}
-
 .menu-button:hover{
     filter: brightness(1.2);
 }
@@ -52,25 +47,19 @@
 .menu {
     position: fixed;
     right: 0;
-    bottom: 0;
+    bottom: 50%;
     top: 2.5rem;
-    width: 100vw;
+    max-width: 360px;
     overflow: hidden;
     background: var(--menu-background);
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     position: absolute;
     transition: 0.5s;
     z-index: 2;
-    left: -100vw;
+    left: -360px;
 }
 
 .open-menu {
     left: 0;
-}
-
-@media(max-width: 700px) {
-    .menu {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }

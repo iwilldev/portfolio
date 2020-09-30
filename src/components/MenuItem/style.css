@@ -17,7 +17,8 @@
     width: 100%;
     position: absolute;
     display: flex;
-    text-align: center;
+    padding: 1rem;
+    text-align: left;
     text-decoration: none;
     color: white;
     background-size: 10%;
@@ -25,12 +26,8 @@
 }
 
 .menu-item a p {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-5%);
     color: var(--extra-white);
+    
 }
 
 .menu-item a:hover {
@@ -39,8 +36,3 @@
 
 
 
-@media(max-height: 500px) {
-    .menu-item a {
-        background-size: 10%;
-    }
-}

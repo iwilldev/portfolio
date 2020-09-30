@@ -2,16 +2,16 @@ const formationList = [
 
     {
         logo: 'assets/img/pages/resume/origamid.svg',
-        title: 'Front-End | UX/UI Design (197h)',
+        title: 'Front-End | UX/UI Design',
         school: 'Origamid',
-        content: 'Web Design Completo, Tipografia Avançada, UI Design Avançado, UX Design Heurísticas, Adobe XD, WordPress Como CMS, CSS Avançado , CSS Flexbox, CSS Grid Layout, JavaScript Completo ES6, React Completo, WordPress REST API Dogs, WooCommerce Como CMS, CSS com SASS, Vue.js Completo, WordPress REST API, Bootstrap 4, Automação Front End com NPM, JavaScript e jQuery',
+        content: 'Web Design Completo, Tipografia Avançada, UI Design Avançado, UX Design Heurísticas, Adobe XD, CSS Avançado , CSS Flexbox, CSS Grid Layout, JavaScript Completo ES6, React Completo, CSS com SASS, Vue.js Completo, Bootstrap 4, Automação Front End com NPM',
         startDate: '2020',
         endDate: '2021',
         link: '',
     },
     {
         logo: 'assets/img/pages/resume/html-dio.png',
-        title: 'HTML Web Developer (27h)',
+        title: 'HTML Web Developer',
         school: 'Digital Innovation One',
         content: 'HTML5, CSS3, JavaScript, CSS Flexbox, Responsividade, Layouts, jQuery',
         startDate: 'Agosto/2020',
@@ -20,7 +20,7 @@ const formationList = [
     },
     {
         logo: 'assets/img/pages/resume/cloud-dio.png',
-        title: 'Cloud Computing & Serverless (10h)',
+        title: 'Cloud Computing & Serverless',
         school: 'Digital Innovation One',
         content: 'Fundamentos da Computação em Nuvem, Fundamentos do Azure, Introdução aos Conceitos de Serverless e Azure Functions, Desenvolvimento de software com Azure Static Web Apps e GitHub Actions',
         startDate: 'Julho/2020',
@@ -29,7 +29,7 @@ const formationList = [
     },
     {
         logo: 'assets/img/pages/resume/reactjs-dio.png',
-        title: 'Desenvolvedor Front-End ReactJS (87h)',
+        title: 'Desenvolvedor Front-End ReactJS',
         school: 'Digital Innovation One',
         content: 'Lógica de Programação, Git, GitHub, Arquitetura de Sistemas, HTML5, CSS3, Bootstrap, JavaScript ES6, ReactJS, TypeScript, Redux',
         startDate: 'Maio/2020',

@@ -7,11 +7,19 @@
 html {font-size: 100%;}
 
 @media(max-width:700px) {
-  html {font-size: 80%;}
+  html {font-size: 90%;}
 }
 
 @media(max-width:400px) {
-  html {font-size: 75%;}
+  html {font-size: 80%;}
+}
+
+@media(min-width: 1700px) {
+  html {font-size: 110%;}
+}
+
+@media(min-width: 3500px) {
+  html {font-size: 200%;}
 }
 
 h1, h2, h3, h4, h5, h6 {

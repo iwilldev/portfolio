@@ -1,15 +1,15 @@
 .code-content {
-    padding: 0 6rem 6rem 6rem;
+    padding: 0 10vw 10vw 10vw;
     color: var(--white);
     width: 100%;
 }
 
 .code-header {
     display: flex;
-    margin: 0 -6rem;
+    margin: 0 -10vw;
     margin-bottom: 3rem;
     background: var(--extra-black);
-    padding: 6rem;
+    padding: 10vw;
     padding-bottom: 1rem;
 }
 
@@ -23,7 +23,8 @@
     margin: 2rem 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
+    gap: 5vw;
+    padding-bottom: 10rem;
 }
 
 .code-grid a {

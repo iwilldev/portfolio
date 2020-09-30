@@ -1,5 +1,5 @@
 .resume-content {
-    padding: 0 6rem 6rem 6rem;
+    padding: 0 10vw 10vw 10vw;
     color: var(--white);
 }
 
@@ -10,16 +10,8 @@
 }
 
 @media(max-width: 700px) {
-    .resume-content {
-        padding: 0 3rem 3rem 3rem;
-    }
     .resume-content h1 {
         margin: 0;
-    }
-    .experience-container,
-    .stacks-container,
-    .formation-container {
-        padding-bottom: 5rem;
     }
 }
 
@@ -34,10 +26,10 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    margin: 0 -6rem;
+    margin: 0 -10vw;
     margin-bottom: 3rem;
     background: var(--extra-black);
-    padding: 6rem;
+    padding: 10vw;
     padding-bottom: 1rem;
 }
 
@@ -51,7 +43,7 @@
 .stack-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 4rem;
+    gap: 5vw;
 }
 
 .stack-grid .stack-item {
@@ -75,7 +67,7 @@
 .formation-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10rem;
+    gap: 5vw;
 }
 
 @media(max-width: 800px) {

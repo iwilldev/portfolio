@@ -13,23 +13,11 @@ const stacksList = [
     },
     {
         icon: 'https://devicons.github.io/devicon/devicon.git/icons/react/react-original.svg',
-        name: 'ReactJS / Native'
-    },
-    {
-        icon: 'https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-original.svg',
-        name: 'Node.js'
-    },
-    {
-        icon: 'https://devicons.github.io/devicon/devicon.git/icons/angularjs/angularjs-original.svg',
-        name: 'AngularJS'
+        name: 'React'
     },
     {
         icon: 'https://devicons.github.io/devicon/devicon.git/icons/vuejs/vuejs-original.svg',
         name: 'Vue.js'
-    },
-    {
-        icon: 'https://devicons.github.io/devicon/devicon.git/icons/express/express-original.svg',
-        name: 'Express'
     },
     {
         icon: 'https://devicons.github.io/devicon/devicon.git/icons/typescript/typescript-original.svg',

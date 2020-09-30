@@ -1,5 +1,5 @@
 .project-content {
-    padding: 0 6rem 6rem 6rem;
+    padding: 0 10vw 10vw 10vw;
     color: var(--white);
     width: 100%;
 }
@@ -7,10 +7,10 @@
 .project-header {
     width: 100vw;
     display: flex;
-    margin: 0 -6rem;
+    margin: 0 -10vw;
     margin-bottom: 3rem;
-    background: var(--dark-blue);
-    padding: 6rem;
+    background: var(--extra-black);
+    padding: 10vw;
     padding-bottom: 1rem;
 }
 
@@ -18,7 +18,8 @@
     margin: 3rem 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 5vw;
+    padding-bottom: 10rem;
 }
 
 .project-grid span {

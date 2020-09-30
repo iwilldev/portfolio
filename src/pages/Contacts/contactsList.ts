@@ -2,14 +2,14 @@ const contactList = [
     {
         image: '/assets/img/pages/contacts/phone.svg',
         label: '021 4105 5344',
-        action: 'Número fixo',
+        action: 'Telefone',
         link: 'tel:+552141055344'
     },
     {
         image: '/assets/img/pages/contacts/whatsapp.svg',
-        label: '021 96544 3935',
+        label: '021 4105 5344',
         action: 'WhatsApp',
-        link: 'https://wa.me/5521965443935'
+        link: 'https://wa.me/552141055344'
     },
     {
         image: '/assets/img/pages/contacts/gmail.svg',
@@ -19,9 +19,9 @@ const contactList = [
     },
     {
         image: '/assets/img/pages/contacts/instagram.svg',
-        label: '@william.mago',
+        label: '@oarrobanaocoube',
         action: 'Instagram',
-        link: 'https://www.instagram.com/william.mago'
+        link: 'https://www.instagram.com/oarrobanaocoube'
     },
     {
         image: '/assets/img/pages/contacts/linkedin.svg',

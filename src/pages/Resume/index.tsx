@@ -22,7 +22,7 @@ function Resume() {
         <div className="resume-content">
           <div className="experience-header">
               <img src={suitCaseImg} alt="Ícone de mala corporativa"/>
-              <h1>EXPERIÊNCIA</h1>
+              <h1>Experiência</h1>
           </div>
           <div className="experience-container">
             { experienceList.map((item) => { 
@@ -37,7 +37,7 @@ function Resume() {
           </div>
           <div className="stacks-header">
               <img src={desktopImg} alt="Ícone de um desktop"/>
-              <h1>HABILIDADES</h1>
+              <h1>Habilidades</h1>
           </div>
           <div className="stacks-container">
             <div className="stack-grid">
@@ -53,7 +53,7 @@ function Resume() {
           </div>
           <div className="formation-header">
               <img src={licenseImg} alt="Ícone de um desktop"/>
-              <h1>FORMAÇÕES</h1>
+              <h1>Formações</h1>
           </div>
           <div className="formation-container">  
             { formationList.map((item) => { 

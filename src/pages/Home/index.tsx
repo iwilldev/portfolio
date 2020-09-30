@@ -4,18 +4,18 @@ import TemplateBar from '../../components/TemplateBar';
 import '../../App.css';
 import './style.css';
 
-function Home() {
+import wgLogo from '../../assets/img/wg-logo.png';
 
-  const leftHandEmoji = '👈';
+function Home() {
 
   return (
     <>
       <TemplateBar/>
       <div className="home-container">
-        <h1>
+        <img src={wgLogo} alt="Meu logo, as iniciais w g dentro de um quadrado, com dois parênteses fora, representando uma função em JavaScript"/>
+        <h3>
           Front-End<br/>Design<br/>UI/UX
-        </h1>
-        <h3>William Gonçalves</h3>
+        </h3>
         <p>
           <q>Se você pensa que pode ou sonha que pode, comece. Ousadia tem genialidade, poder e mágica. Ouse fazer e o poder lhe será dado.</q><br/>
           <i>Johann Goethe</i>
