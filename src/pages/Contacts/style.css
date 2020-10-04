@@ -42,11 +42,11 @@
     max-width: 100%;
     flex-direction: row;
     justify-content: space-between;
-    background: var(--extra-dark-blue);
+    background: var(--extra-black);
     color: var(--white);
     backdrop-filter: opacity;
     height: 5rem;
-    transition: background 0.5s, color 0.5s;
+    transition: background 0.3s, color 0.3s;
 }
 
 .contact-description {
@@ -69,8 +69,8 @@
 }
 
 .contact-container a:hover {
-    background: var(--white);
-    color: var(--dark-blue);
+    background: var(--extra-dark-blue);
+    
 }
 
 @media(max-width: 1200px) {

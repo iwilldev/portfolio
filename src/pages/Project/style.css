@@ -36,17 +36,16 @@
     height: 2rem;
     padding: 0 1rem;
     width: max-content;
-    background: var(--dark-blue);
+    background: var(--extra-black);
     color: var(--white);
     display: flex;
     align-items: center;
     cursor: pointer;
-    transition: background 0.3s, color 0.3s;
+    transition: 0.3s;
 }
 
 .project-grid a:hover {
-    background: var(--white);
-    color: var(--extra-dark-blue);
+    background: var(--extra-dark-blue);
 }
 
 @media(max-width: 900px) {

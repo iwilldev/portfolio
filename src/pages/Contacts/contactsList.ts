@@ -12,6 +12,18 @@ const contactList = [
         link: 'https://wa.me/552141055344'
     },
     {
+        image: '/assets/img/pages/contacts/instagram.svg',
+        label: '@magodocss',
+        action: 'Instagram',
+        link: 'https://medium.com/@euwilliamgoncalves'
+    },
+    {
+        image: '/assets/img/pages/contacts/youtube.png',
+        label: 'Mago do CSS',
+        action: 'Canal no YouTube',
+        link: 'https://youtube.com/channel/UCXJIa44t_QW1dWojbIPxXKg'
+    },
+    {
         image: '/assets/img/pages/contacts/gmail.svg',
         label: 'euwilliamgoncalves@',
         action: 'gmail.com',
@@ -20,7 +32,7 @@ const contactList = [
     {
         image: '/assets/img/pages/contacts/instagram.svg',
         label: '@oarrobanaocoube',
-        action: 'Instagram',
+        action: 'Instagram Pessoal',
         link: 'https://www.instagram.com/oarrobanaocoube'
     },
     {
@@ -34,18 +46,6 @@ const contactList = [
         label: 'euwilliamgoncalves',
         action: 'CodePen',
         link: 'https://codepen.io/euwilliamgoncalves'
-    },
-    {
-        image: '/assets/img/pages/contacts/medium.svg',
-        label: '@euwilliamgoncalves',
-        action: 'Medium',
-        link: 'https://medium.com/@euwilliamgoncalves'
-    },
-    {
-        image: '/assets/img/pages/contacts/rocketseat.svg',
-        label: 'euwilliamgoncalves',
-        action: 'Rocketseat',
-        link: 'https://app.rocketseat.com.br/me/euwilliamgoncalves'
     }
 ]
 

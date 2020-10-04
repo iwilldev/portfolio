@@ -29,7 +29,7 @@ const portfolioList = [
         thirdDescription: "Letras desenhadas a partir de linhas e círculos.",
         thirdImage: "/assets/img/portfolio/001/image03.png",
         fourthTitle: "paleta de cores",
-        fourthDescription: "Pantone 15-3919 TCX - Serenity (Cor do Ano de 2016)",
+        fourthDescription: "Pantone15-3919TCX",
         fourthImage: "/assets/img/portfolio/001/image04.png",
         link: ""
     },
@@ -46,7 +46,7 @@ const portfolioList = [
         thirdDescription: "Letras desenhadas a partir de linhas e círculos.",
         thirdImage: "/assets/img/portfolio/002/image03.png",
         fourthTitle: "paleta de cores",
-        fourthDescription: "Pantone 18-3838 TCX - Ultra Violet (Cor do Ano de 2018)",
+        fourthDescription: "Pantone18-3838TCX",
         fourthImage: "/assets/img/portfolio/002/image04.png",
         link: ""
     },
@@ -63,7 +63,7 @@ const portfolioList = [
         thirdDescription: "Gruppo Regular",
         thirdImage: "/assets/img/portfolio/003/image03.png",
         fourthTitle: "paleta de cores",
-        fourthDescription: "Pantone 7557 C<br>Pantone 1807 C<br>Pantone 2727 C",
+        fourthDescription: "Pantone7557C, Pantone1807C, Pantone2727C",
         fourthImage: "/assets/img/portfolio/003/image04.png",
         link: ""
     },
@@ -80,7 +80,7 @@ const portfolioList = [
         thirdDescription: "Josefin Sans Light",
         thirdImage: "/assets/img/portfolio/004/image03.png",
         fourthTitle: "paleta de cores",
-        fourthDescription: "Pantone Black 7 C<br>Pantone 7671 C",
+        fourthDescription: "PantoneBlack7C, Pantone7671C",
         fourthImage: "/assets/img/portfolio/004/image04.png",
         link: ""
     },
@@ -97,7 +97,7 @@ const portfolioList = [
         thirdDescription: "Exo 2 Light<br>Exo 2 Thin",
         thirdImage: "/assets/img/portfolio/005/image03.png",
         fourthTitle: "paleta de cores",
-        fourthDescription: "Pantone 7489 C",
+        fourthDescription: "Pantone7489C",
         fourthImage: "/assets/img/portfolio/005/image04.png",
         link: ""
     },
@@ -114,7 +114,7 @@ const portfolioList = [
         thirdDescription: "Futurafrica Regular",
         thirdImage: "/assets/img/portfolio/006/image03.png",
         fourthTitle: "paleta de cores",
-        fourthDescription: "Pantone 7533 C<br>Pantone 7568 C<br>Pantone 7427 C<br>Pantone 7743 C<br>Pantone 7563 C",
+        fourthDescription: "Pantone7533C, Pantone7568C, Pantone7427C, Pantone7743C, Pantone7563C",
         fourthImage: "/assets/img/portfolio/006/image04.png",
         link: ""
     },
@@ -131,7 +131,7 @@ const portfolioList = [
         thirdDescription: "NovaMono Regular",
         thirdImage: "/assets/img/portfolio/007/image03.png",
         fourthTitle: "paleta de cores",
-        fourthDescription: "#323F3C #40534F #557162 #698F70 #7FAF7F",
+        fourthDescription: "#323F3C, #40534F, #557162, #698F70, #7FAF7F",
         fourthImage: "/assets/img/portfolio/007/image04.png",
         link: ""
     },

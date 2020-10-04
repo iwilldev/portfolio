@@ -18,7 +18,7 @@ function Contacts() {
           <div className="contact-container">
           { contactsList.map((item) => { 
               return (
-                <a key={item.action} href={item.link}>
+                <a key={item.action} href={item.link} rel="noopener noreferrer" target="_blank">
                   <img src={item.image} alt={item.action}/>
                   <div className="contact-description">
                     <h5>{item.label}</h5>
