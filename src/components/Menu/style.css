@@ -7,7 +7,7 @@
     background: var(--dark-blue);
     border: 0;
     cursor: pointer;
-    transition: filter 0.5s;
+    transition: filter 0.3s;
     z-index: 999;
 }
 
@@ -55,7 +55,7 @@
     display: grid;
     grid-template-columns: 1fr;
     position: absolute;
-    transition: 0.5s;
+    transition: 0.3s;
     z-index: 2;
     left: -360px;
 }

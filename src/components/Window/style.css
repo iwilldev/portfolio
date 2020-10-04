@@ -9,12 +9,14 @@
     
     border-top: none;
     transform: scale(1);
-    transition: 0.5s;
+    transition: 0.3s;
     z-index: 1;
 }
 
 .closed {
     transform: scale(0.001);
+    left: 100%;
+    right: -100%;
 }
 
 .window-header {
@@ -40,7 +42,7 @@
 
 .window-header img {
     height: 70%;
-    transition: filter 0.5s;
+    transition: filter 0.3s;
 }
 
 .window-header img:last-child {
