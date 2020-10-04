@@ -19,11 +19,11 @@ const menuList = [
         label: 'DESIGN',
         route: '/design'
     },
-    // {
-    //     image: '/assets/img/icons/game.svg',
-    //     label: 'GAMES',
-    //     route: '/portfolio'
-    // },
+    {
+        image: '/assets/img/icons/videos.svg',
+        label: 'VIDEOS',
+        route: '/videos'
+    },
     {
         image: '/assets/img/icons/contact.svg',
         label: 'CONTATOS',

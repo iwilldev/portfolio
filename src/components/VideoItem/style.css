@@ -1,0 +1,33 @@
+.code-grid a {
+    padding: 0;
+    height: 20rem;
+    text-decoration: none;
+    display: flex;
+    border: 2px solid var(--extra-black);
+    transition: border 0.3s;
+}
+
+@media(max-width: 700px) {
+    .code-grid a {
+        height: 16.5rem
+    }
+}
+
+.code-grid a h5 {
+    width: 100%;
+    padding: 1rem;
+    margin-top: auto;
+    margin-bottom: 0;
+    background: var(--extra-black);
+    color: var(--white);
+    text-align: left;
+}
+
+.code-grid a:hover {
+    border-color: var(--extra-dark-blue);
+    background-color: (--extra-dark-blue);
+}
+
+.code-grid a:hover h5 {
+    background: var(--extra-dark-blue);
+}

@@ -22,7 +22,7 @@ function Design() {
               {portfolioList.map((item) => {
                 if (item.type === 'design') {
                   return (
-                    <PortfolioItem link={item.id} image={item.image} title={item.title} />
+                    <PortfolioItem key={item.id} link={item.id} image={item.image} title={item.title} />
                   )
                 }
               })}

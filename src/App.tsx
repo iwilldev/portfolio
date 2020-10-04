@@ -10,6 +10,7 @@ import Project from './pages/Project';
 import Contacts from './pages/Contacts';
 
 import './App.css';
+import Videos from './pages/Videos';
 
 
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/web" component={Web} />
           <Route path="/design" component={Design} />
           <Route path="/project" component={Project} />
+          <Route path="/videos" component={Videos} />
           <Route path="/contacts" component={Contacts} />
           <Route component={() => (
             <>
