@@ -136,21 +136,21 @@ const portfolioList = [
         link: ""
     },
     {
-        id: "codescola",
+        id: "iza",
         type: "código",
-        title: "codescola",
-        description: "Projeto desenvolvido na segunda edição da NLW, envolvendo React, React Native, Node.js e Typescript. A codEscola é uma plataforma para integrar alunos e professores de programação",
-        image: "/assets/img/portfolio/013/image01.png",
-        secondTitle: "responsividade",
-        secondDescription: "O site foi construído com os princípios do mobile-first, com um design inicialmente voltado para os dispositivos móveis, que se adaptava a grandes telas, através de media queries na estilização dos componentes.",
-        secondImage: "/assets/img/portfolio/013/image02.png",
-        thirdTitle: "móvel",
-        thirdDescription: "E além da aplicação Web, foi desenvolvida uma aplicação móvel, em React Native, permitindo que os alunos pudessem pesquisar os professores disponíveis, inclusive salvando os seus favoritos.",
-        thirdImage: "/assets/img/portfolio/013/image03.png",
-        fourthTitle: "back-end",
-        fourthDescription: "A 'cozinha' da aplicação ficou por conta do TypeScript, que foi usado no template do projeto, além de uma Restful API feita em Node.js, para interface entre os bancos de dados da aplicação e as aplicações web e móvel",
-        fourthImage: "/assets/img/portfolio/013/image04.png",
-        link: 'https://github.com/euwilliamgoncalves/codescola_webapp_nlw2/'
+        title: "iza",
+        description: "Fanpage criada com HTML e CSS, utilizando técnicas de CSS Grid e Flexbox, tornando a página totalmente responsiva em diferentes dispositivos.",
+        image: "/assets/img/portfolio/015/image01.jpg",
+        secondTitle: "discografia",
+        secondDescription: "Desde álbuns de estúdios a singles e participações, o site conta com o acervo da cantora, com links para as principais plataformas de streaming.",
+        secondImage: "/assets/img/portfolio/015/image02.jpg",
+        thirdTitle: "videografia",
+        thirdDescription: "A videografia da cantora também está disponível na página, redirecionando o usuário através de um link para o do canal oficial no YouTube.",
+        thirdImage: "/assets/img/portfolio/015/image03.jpg",
+        fourthTitle: "redes sociais",
+        fourthDescription: "A página conta também com os links para as redes sociais da Iza, bem como para seus perfis nas plataformas de streaming.",
+        fourthImage: "/assets/img/portfolio/015/image04.jpg",
+        link: 'https://iza.now.sh/'
     },
     {
         id: "rmgeradores",
@@ -168,6 +168,40 @@ const portfolioList = [
         fourthDescription: "A página foi criada com os princípios de 'mobile-first, para que o uso dela fosse otimizado em dispositivos móveis, melhorando a usabilidade e a experiência dos clientes, parceiros e colaboradores.",
         fourthImage: "/assets/img/portfolio/014/image04.png",
         link: 'https://rmgeradores.com.br/'
+    },
+    {
+        id: "dragonflix",
+        type: "código",
+        title: "dragonflix",
+        description: "Projeto criado durante a #ImersãoReact da Alura, que consiste-se em um acervo de vídeos do YouTube escolhidos pelo usuário. Criei o Dragonflix, uma coletânea de vídeos de rock e metal.",
+        image: "/assets/img/portfolio/012/image01.png",
+        secondTitle: "tecnologias",
+        secondDescription: "Além do ReactJS (aplicação criada com 'create-react-app'), utilizamos JavaScript, Styled Components e CSS em servidor Node.js",
+        secondImage: "/assets/img/portfolio/012/image02.png",
+        thirdTitle: "ux",
+        thirdDescription: "Afim de otimizar a usabilidade do site, incluí um banner com o título do vídeo que é exibido com o 'hover' do mouse, no desktop, e está sempre visível no mobile, além da exibição nativa do vídeo, sem redirecionamento para o site do YouTube.",
+        thirdImage: "/assets/img/portfolio/012/image03.png",
+        fourthTitle: "responsividade",
+        fourthDescription: "O projeto foi estilizado para se adequar a dispositivos móveis, mantendo seu aspecto original e ajustando alguns pontos, como o link 'Novo Vídeo', a fim de garantir uma boa experiência ao usuário.",
+        fourthImage: "/assets/img/portfolio/012/image04.png",
+        link: 'https://dragonflix.vercel.app/'
+    },
+    {
+        id: "codescola",
+        type: "código",
+        title: "codescola",
+        description: "Projeto desenvolvido na segunda edição da NLW, envolvendo React, React Native, Node.js e Typescript. A codEscola é uma plataforma para integrar alunos e professores de programação",
+        image: "/assets/img/portfolio/013/image01.png",
+        secondTitle: "responsividade",
+        secondDescription: "O site foi construído com os princípios do mobile-first, com um design inicialmente voltado para os dispositivos móveis, que se adaptava a grandes telas, através de media queries na estilização dos componentes.",
+        secondImage: "/assets/img/portfolio/013/image02.png",
+        thirdTitle: "móvel",
+        thirdDescription: "E além da aplicação Web, foi desenvolvida uma aplicação móvel, em React Native, permitindo que os alunos pudessem pesquisar os professores disponíveis, inclusive salvando os seus favoritos.",
+        thirdImage: "/assets/img/portfolio/013/image03.png",
+        fourthTitle: "back-end",
+        fourthDescription: "A 'cozinha' da aplicação ficou por conta do TypeScript, que foi usado no template do projeto, além de uma Restful API feita em Node.js, para interface entre os bancos de dados da aplicação e as aplicações web e móvel",
+        fourthImage: "/assets/img/portfolio/013/image04.png",
+        link: 'https://github.com/euwilliamgoncalves/codescola_webapp_nlw2/'
     },
     {
         id: "ecoleta",
@@ -219,24 +253,7 @@ const portfolioList = [
         fourthDescription: "Nayra Cruz - UX | Daniel Meiato - PM | Michel Bernardo - Dev | Thiago Pederzolli - Dev",
         fourthImage: "/assets/img/portfolio/011/image04.jpg",
         link: "https://www.youtube.com/watch?v=cAm7oerJ_sY"
-    },
-    {
-        id: "dragonflix",
-        type: "código",
-        title: "dragonflix",
-        description: "Projeto criado durante a #ImersãoReact da Alura, que consiste-se em um acervo de vídeos do YouTube escolhidos pelo usuário. Criei o Dragonflix, uma coletânea de vídeos de rock e metal.",
-        image: "/assets/img/portfolio/012/image01.png",
-        secondTitle: "tecnologias",
-        secondDescription: "Além do ReactJS (aplicação criada com 'create-react-app'), utilizamos JavaScript, Styled Components e CSS em servidor Node.js",
-        secondImage: "/assets/img/portfolio/012/image02.png",
-        thirdTitle: "ux",
-        thirdDescription: "Afim de otimizar a usabilidade do site, incluí um banner com o título do vídeo que é exibido com o 'hover' do mouse, no desktop, e está sempre visível no mobile, além da exibição nativa do vídeo, sem redirecionamento para o site do YouTube.",
-        thirdImage: "/assets/img/portfolio/012/image03.png",
-        fourthTitle: "responsividade",
-        fourthDescription: "O projeto foi estilizado para se adequar a dispositivos móveis, mantendo seu aspecto original e ajustando alguns pontos, como o link 'Novo Vídeo', a fim de garantir uma boa experiência ao usuário.",
-        fourthImage: "/assets/img/portfolio/012/image04.png",
-        link: 'https://dragonflix.vercel.app/'
-    },
+    }
 ]
 
 export default portfolioList;
