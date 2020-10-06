@@ -2,6 +2,8 @@ const portfolioList = [
     {
         id: "moovit",
         type: "design",
+        stack: "",
+        stkimg: "",
         title: "moovit",
         description: "Projeto desenvolvido em parceira para com a Moovit que disponibilizou, em seu aplicativo oficial, um mapa das linhas de transporte em massa da região metropolitana do Rio.",
         image: "/assets/img/portfolio/008/image01.png",
@@ -19,6 +21,8 @@ const portfolioList = [
     {
         id: "karioka",
         type: "design",
+        stack: "",
+        stkimg: "",
         title: "karioka",
         description: "Estamparia com temática voltada para a cultura pop do Rio de Janeiro. Foi minha marca por mais de três anos, até o projeto da estamparia ser iniciado.",
         image: "/assets/img/portfolio/001/image01.png",
@@ -36,6 +40,8 @@ const portfolioList = [
     {
         id: "horus",
         type: "design",
+        stack: "",
+        stkimg: "",
         title: "horus",
         description: "Consultoria em energia, eletricidade e serviços associados.",
         image: "/assets/img/portfolio/002/image01.png",
@@ -53,6 +59,8 @@ const portfolioList = [
     {
         id: "revoar",
         type: "design",
+        stack: "",
+        stkimg: "",
         title: "revoar",
         description: "Agência de turismo e eventos. O nome é uma analogia ao francês 'revoir', além de significar 'voar de novo' (re-voar).",
         image: "/assets/img/portfolio/003/image01.png",
@@ -70,6 +78,8 @@ const portfolioList = [
     {
         id: "elevestebem",
         type: "design",
+        stack: "",
+        stkimg: "",
         title: "ele veste bem",
         description: "Blog de moda.",
         image: "/assets/img/portfolio/004/image01.png",
@@ -87,6 +97,8 @@ const portfolioList = [
     {
         id: "greencoast",
         type: "design",
+        stack: "",
+        stkimg: "",
         title: "greencoast",
         description: "Serviços em eletricidade, energia, projetos e manutenção.",
         image: "/assets/img/portfolio/005/image01.png",
@@ -104,6 +116,8 @@ const portfolioList = [
     {
         id: "carregadodeaxe",
         type: "design",
+        stack: "",
+        stkimg: "",
         title: "carregado de axé",
         description: "Loja virtual de artigos culturais e religiosos (projeto em andamento).",
         image: "/assets/img/portfolio/006/image01.png",
@@ -138,6 +152,8 @@ const portfolioList = [
     {
         id: "iza",
         type: "código",
+        stack: "CSS3",
+        stkimg: "https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original.svg",
         title: "iza",
         description: "Fanpage criada com HTML e CSS, utilizando técnicas de CSS Grid e Flexbox, tornando a página totalmente responsiva em diferentes dispositivos.",
         image: "/assets/img/portfolio/015/image01.jpg",
@@ -153,8 +169,29 @@ const portfolioList = [
         link: 'https://iza.now.sh/'
     },
     {
+        id: "pedra-papel-tesoura",
+        type: "código",
+        stack: "Vue.js",
+        stkimg: "https://devicons.github.io/devicon/devicon.git/icons/vuejs/vuejs-original.svg",
+        title: "pedra, papel, tesoura",
+        description: "Jogo criado durante o Dev Day da Digital Innovation, através das aulas do Rafael Maia, utilizando Vue e Sass, além de recursos como responsividade e um local storage para armazenar a pontuação",
+        image: "/assets/img/portfolio/016/image01.jpg",
+        secondTitle: "conceito",
+        secondDescription: "O jogo é uma variação do clássico Pedra, Papel e Tesoura, com o acréscimo de duas novas jogadas: Lagarto e Spock, que minimizam as chances de empate. Na tela inicial, você conta com os links para jogar e para ver as regras",
+        secondImage: "/assets/img/portfolio/016/image02.jpg",
+        thirdTitle: "regras",
+        thirdDescription: "As regras originais se mantém com uma única diferença: nessa versão, cada jogada pode vencer ou perder de outras duas.",
+        thirdImage: "/assets/img/portfolio/016/image03.jpg",
+        fourthTitle: "jogabilidade",
+        fourthDescription: "O gameplay é descomplicado possibilitando jogadas consecutivas em uma tela com design minimalista e interativo, que garante bons momentos de diversão.",
+        fourthImage: "/assets/img/portfolio/016/image04.jpg",
+        link: 'https://pptls.now.sh/'
+    },
+    {
         id: "rmgeradores",
         type: "código",
+        stack: "JavaScript",
+        stkimg: "https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg",
         title: "rm geradores",
         description: "Site institucional da RM Geradores, criado em formato 'one page layout'. A ideia por trás desse trabalho visava criar algo que fosse funcional e passasse uma mensagem rápida e direta, sem tomar muito tempo dos clientes.",
         image: "/assets/img/portfolio/014/image01.png",
@@ -172,6 +209,8 @@ const portfolioList = [
     {
         id: "dragonflix",
         type: "código",
+        stack: "React",
+        stkimg: "https://devicons.github.io/devicon/devicon.git/icons/react/react-original.svg",
         title: "dragonflix",
         description: "Projeto criado durante a #ImersãoReact da Alura, que consiste-se em um acervo de vídeos do YouTube escolhidos pelo usuário. Criei o Dragonflix, uma coletânea de vídeos de rock e metal.",
         image: "/assets/img/portfolio/012/image01.png",
@@ -187,8 +226,29 @@ const portfolioList = [
         link: 'https://dragonflix.vercel.app/'
     },
     {
+        id: "knowleed",
+        type: "código",
+        stack: "CSS3",
+        stkimg: "https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original.svg",
+        title: "knowleed",
+        description: "Projeto criado durante o Hackathon Mega Hack 3.0 da Shawee, atendendo o desafio da Árvore Educação e alcançando o Top 20 nele.",
+        image: "/assets/img/portfolio/011/image01.png",
+        secondTitle: "a solução",
+        secondDescription: "Uma plataforma de leitura gamificada com sistemas de pontuação, nível, conquistas e ranking, premiando os alunos mais assíduos na plataforma com recompensas no mundo real. Para construir a aplicação, utilizamos HTML, CSS, JavaScript, Node.js, Express e Nunjucks.",
+        secondImage: "/assets/img/portfolio/011/image02.png",
+        thirdTitle: "o aprendizado",
+        thirdDescription: "É fundamental que você tenha um destino para tudo o que for codar. Mesmo que seja pelo aprendizado, é super importante dar um norte ao produto. Se não há um comprador definido, para sua aplicação, dificilmente você vende.<br><br>E nós alcançamos nosso objetivo nesse desafio, com um grande trabalho de pesquisa, ideação, definição de personas, estudo de mercado e entendendo o comportamento de potenciais usuários.",
+        thirdImage: "/assets/img/portfolio/011/image03.png",
+        fourthTitle: "parceiros de equipe",
+        fourthDescription: "Nayra Cruz - UX | Daniel Meiato - PM | Michel Bernardo - Dev | Thiago Pederzolli - Dev",
+        fourthImage: "/assets/img/portfolio/011/image04.jpg",
+        link: "https://www.youtube.com/watch?v=cAm7oerJ_sY"
+    },
+    {
         id: "codescola",
         type: "código",
+        stack: "React",
+        stkimg: "https://devicons.github.io/devicon/devicon.git/icons/react/react-original.svg",
         title: "codescola",
         description: "Projeto desenvolvido na segunda edição da NLW, envolvendo React, React Native, Node.js e Typescript. A codEscola é uma plataforma para integrar alunos e professores de programação",
         image: "/assets/img/portfolio/013/image01.png",
@@ -206,6 +266,8 @@ const portfolioList = [
     {
         id: "ecoleta",
         type: "código",
+        stack: "JavaScript",
+        stkimg: "https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg",
         title: "ecoleta",
         description: "Criado na trilha Starter da primeira #NextLevelWeek da Rocketseat, o Ecoleta é um marketplace de coleta de resíduos. Para esse projeto, utilizamos JavaScript, CSS, HTML, Node.js, Express, Nunjucks e SQLite.",
         image: "/assets/img/portfolio/009/image01.png",
@@ -223,6 +285,8 @@ const portfolioList = [
     {
         id: "bootstrap",
         type: "código",
+        stack: "CSS3",
+        stkimg: "https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original.svg",
         title: "bootstrap",
         description: "Essa página foi criada para exercitar os conhecimentos adquiridos no curso de Bootstrap da Digital Innovation One, ministrado pelo professor Rafael Galleani.",
         image: "/assets/img/portfolio/010/image01.png",
@@ -237,23 +301,6 @@ const portfolioList = [
         fourthImage: "/assets/img/portfolio/010/image04.png",
         link: "https://euwilliamgoncalves.github.io/dio_bootstrap/"
     },
-    {
-        id: "knowleed",
-        type: "código",
-        title: "knowleed",
-        description: "Projeto criado durante o Hackathon Mega Hack 3.0 da Shawee, atendendo o desafio da Árvore Educação e alcançando o Top 20 nele.",
-        image: "/assets/img/portfolio/011/image01.png",
-        secondTitle: "a solução",
-        secondDescription: "Uma plataforma de leitura gamificada com sistemas de pontuação, nível, conquistas e ranking, premiando os alunos mais assíduos na plataforma com recompensas no mundo real. Para construir a aplicação, utilizamos HTML, CSS, JavaScript, Node.js, Express e Nunjucks.",
-        secondImage: "/assets/img/portfolio/011/image02.png",
-        thirdTitle: "o aprendizado",
-        thirdDescription: "É fundamental que você tenha um destino para tudo o que for codar. Mesmo que seja pelo aprendizado, é super importante dar um norte ao produto. Se não há um comprador definido, para sua aplicação, dificilmente você vende.<br><br>E nós alcançamos nosso objetivo nesse desafio, com um grande trabalho de pesquisa, ideação, definição de personas, estudo de mercado e entendendo o comportamento de potenciais usuários.",
-        thirdImage: "/assets/img/portfolio/011/image03.png",
-        fourthTitle: "parceiros de equipe",
-        fourthDescription: "Nayra Cruz - UX | Daniel Meiato - PM | Michel Bernardo - Dev | Thiago Pederzolli - Dev",
-        fourthImage: "/assets/img/portfolio/011/image04.jpg",
-        link: "https://www.youtube.com/watch?v=cAm7oerJ_sY"
-    }
 ]
 
 export default portfolioList;
