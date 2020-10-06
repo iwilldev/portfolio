@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './style.css';
-import { Link } from 'react-router-dom';
 
 interface WindowProps {
     link: string;

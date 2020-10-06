@@ -25,6 +25,7 @@ function Design() {
                     <PortfolioItem key={item.id} link={item.id} image={item.image} title={item.title} />
                   )
                 }
+                return null;
               })}
             </div>
           </div>

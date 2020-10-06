@@ -31,3 +31,8 @@
 .code-grid a:hover h5 {
     background: var(--extra-dark-blue);
 }
+
+.code-grid a img {
+    height: 2rem;
+    margin: auto 0.75rem 0.75rem 0;
+}

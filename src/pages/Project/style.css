@@ -48,6 +48,21 @@
     background: var(--extra-dark-blue);
 }
 
+.stack-container {
+    all: unset;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+    align-items: center;
+    text-align: left;
+}
+
+.stack-container img {
+    max-width: 2rem;
+    margin: 0 0 0 1rem;
+}
+
 @media(max-width: 900px) {
     .project-grid .fragment {
         grid-template-columns: 1fr;
@@ -61,5 +76,12 @@
         max-width: 500px;
         margin: 0 auto;
         margin-top: 2rem;
+    }
+    .stack-container {
+        margin: 2rem auto 0 auto;
+    }
+    .stack-container img {
+        max-width: 2rem;
+        margin: 0 0 0 1rem;
     }
 }

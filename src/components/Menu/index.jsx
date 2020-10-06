@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import MenuItem from '../MenuItem';
 
 import menuList from './menuList';
-import buttonImg from '../../assets/img/logo.png';
 
 import './style.css';
 

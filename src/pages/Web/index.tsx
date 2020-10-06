@@ -23,9 +23,10 @@ function Portfolio() {
               {portfolioList.map((item) => {
                 if (item.type === 'código') {
                   return (
-                    <PortfolioItem key={item.id} link={item.id} image={item.image} title={item.title} />
+                    <PortfolioItem key={item.id} link={item.id} image={item.image} title={item.title} stack={item.stack} stackimage={item.stkimg} />
                   )
                 }
+                return null;
               })}
             </div>
           </div>

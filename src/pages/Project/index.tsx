@@ -19,7 +19,9 @@ function Project() {
       if (item.id === projectId) {
         setProjectTitle(item.title);
       }
-    })
+      return null;
+    });
+    
   }, [id, projectId]);
 
   return (
@@ -41,6 +43,7 @@ function Project() {
                         <span>
                           <p>{item.description}</p>
                           {item.link !== '' && <a href={item.link} rel="noopener noreferrer" target="_blank">Ver mais</a>}
+                          {item.stack !== '' && <div className="stack-container"><h5>Principal Stack:</h5> <img src={item.stkimg} alt={item.stack} /></div> }
                         </span>
                         <img src={item.secondImage} alt={'Imagem do projeto' + item.title}/>
                         <span>
@@ -60,6 +63,7 @@ function Project() {
                       </div>
                     )
                   }
+                  return null;
                 })
               }
             </div>
