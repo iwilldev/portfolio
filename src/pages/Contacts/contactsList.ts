@@ -31,9 +31,9 @@ const contactList = [
     },
     {
         image: '/assets/img/pages/contacts/instagram.svg',
-        label: '@oarrobanaocoube',
+        label: '@quemmevuementiu',
         action: 'Instagram Pessoal',
-        link: 'https://www.instagram.com/oarrobanaocoube'
+        link: 'https://www.instagram.com/quemmevuementiu'
     },
     {
         image: '/assets/img/pages/contacts/linkedin.svg',
