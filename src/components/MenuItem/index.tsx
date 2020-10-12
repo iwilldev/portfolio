@@ -11,11 +11,17 @@ export interface Item {
 
 interface MenuItemProps {
     item: Item;
+    toggleMenu: Function;
 }
 
-const MenuItem: React.FunctionComponent<MenuItemProps> = ({ item }) => {
+const MenuItem: React.FunctionComponent<MenuItemProps> = ({ item, toggleMenu }) => {
+
+  const closeMenu = () => {
+    setTimeout(toggleMenu, 300);
+  }
+
   return (
-    <li className="menu-item">
+    <li className="menu-item" onClick={closeMenu}>
         <div className="menu-background" style={{background: `url(${item.image}) no-repeat right`, backgroundSize: `contain`, opacity: '0.1'}}></div>
         <Link to={item.route}>
             <p>{item.label}</p>

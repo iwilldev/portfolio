@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import TemplateBar from '../../components/TemplateBar';
 import Window from '../../components/Window';
 
 import portfolioList from './portfolioList';
@@ -25,8 +24,6 @@ function Project() {
   }, [id, projectId]);
 
   return (
-    <>
-      <TemplateBar/>
       <Window icon="/assets/img/icons/ink.svg" title={projectTitle}>
         <div className="project-content">
           <div className="project-container">
@@ -70,7 +67,6 @@ function Project() {
           </div>
         </div>
       </Window>
-    </>
   );
 }
 

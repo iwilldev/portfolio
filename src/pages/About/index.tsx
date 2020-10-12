@@ -1,5 +1,4 @@
 import React from 'react';
-import TemplateBar from '../../components/TemplateBar';
 import Window from '../../components/Window';
 
 import profilePic from '../../assets/img/pages/about/profile.jpeg';
@@ -10,8 +9,6 @@ import './style.css';
 function About() {
 
   return (
-    <>
-      <TemplateBar/>
       <Window icon="/assets/img/icons/about-me.svg" title="Sobre Mim">
         <div className="about-content">
           <div className="about-header">
@@ -49,7 +46,6 @@ function About() {
           </div>
         </div>
       </Window>
-    </>
   );
 }
 

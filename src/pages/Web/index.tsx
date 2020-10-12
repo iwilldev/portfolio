@@ -1,5 +1,4 @@
 import React from 'react';
-import TemplateBar from '../../components/TemplateBar';
 import PortfolioItem from '../../components/PortfolioItem';
 import Window from '../../components/Window';
 
@@ -10,8 +9,6 @@ import './style.css';
 function Portfolio() {
 
   return (
-    <>
-      <TemplateBar/>
       <Window icon="/assets/img/icons/devices.svg" title="Web: Apps e Sites">
         <div className="code-content">
           <div className="code-header">
@@ -32,7 +29,6 @@ function Portfolio() {
           </div>
         </div>
       </Window>
-    </>
   );
 }
 

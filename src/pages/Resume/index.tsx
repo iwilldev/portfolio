@@ -1,5 +1,4 @@
 import React from 'react';
-import TemplateBar from '../../components/TemplateBar';
 import Window from '../../components/Window';
 
 import experienceList from './experienceList';
@@ -16,8 +15,6 @@ import './style.css';
 function Resume() {
 
   return (
-    <>
-      <TemplateBar/>
       <Window icon="/assets/img/icons/certificate.svg" title="Currículo">
         <div className="resume-content">
           <div className="experience-header">
@@ -71,7 +68,6 @@ function Resume() {
           </div>
         </div>
       </Window>
-    </>
   );
 }
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import TemplateBar from '../../components/TemplateBar';
 import Window from '../../components/Window';
 
 import contactsList from './contactsList';
@@ -7,8 +6,6 @@ import './style.css';
 
 function Contacts() {
   return (
-    <>
-      <TemplateBar/>
       <Window icon="/assets/img/icons/contact.svg" title="Contatos">
         <div className="contact-content">
           <div className="contact-header">
@@ -30,7 +27,6 @@ function Contacts() {
           </div>
         </div>
       </Window>
-    </>
   );
 }
 

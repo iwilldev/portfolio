@@ -1,5 +1,4 @@
 import React from 'react';
-import TemplateBar from '../../components/TemplateBar';
 import VideoItem from '../../components/VideoItem';
 import Window from '../../components/Window';
 
@@ -13,8 +12,6 @@ import '../../components/PortfolioItem/style.css';
 function Videos() {
 
     return (
-        <>
-        <TemplateBar/>
         <Window icon="/assets/img/icons/videos.svg" title="Vídeos">
             <div className="code-content">
             <div className="code-header">
@@ -33,7 +30,6 @@ function Videos() {
             </div>
             </div>
         </Window>
-        </>
     );
 }
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import TemplateBar from '../../components/TemplateBar';
 
 import '../../App.css';
 import './style.css';
@@ -9,8 +8,6 @@ import wgLogo from '../../assets/img/wg-logo.png';
 function Home() {
 
   return (
-    <>
-      <TemplateBar/>
       <div className="home-container">
         <img src={wgLogo} alt="Meu logo, as iniciais w g dentro de um quadrado, com dois parênteses fora, representando uma função em JavaScript"/>
         <h3>
@@ -21,8 +18,6 @@ function Home() {
           <i>Johann Goethe</i>
         </p>
       </div>
-      
-    </>
       
   );
 }

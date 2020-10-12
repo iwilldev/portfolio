@@ -50,7 +50,7 @@ function Menu() {
       <ul className={menuClasses} ref={menuArea}> 
           { menuList.map((item) => { 
               return (
-                  <MenuItem key={item.label} item={item} /> 
+                  <MenuItem key={item.label} item={item} toggleMenu={toggleMenu} /> 
               )
           })}
       </ul>

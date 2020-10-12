@@ -8,16 +8,15 @@ import Web from './pages/Web';
 import Design from './pages/Design';
 import Project from './pages/Project';
 import Contacts from './pages/Contacts';
-
-import './App.css';
 import Videos from './pages/Videos';
 
-
+import './App.css';
 
 function App() {
 
   return (
       <BrowserRouter>
+        <TemplateBar/>
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/about-me" component={About} />
@@ -29,7 +28,7 @@ function App() {
           <Route path="/contacts" component={Contacts} />
           <Route component={() => (
             <>
-              <TemplateBar/>
+              
               <div style={{width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', color: '#ddd'}}>
                 <h1 style={{marginBottom: '1rem', marginTop: '1rem'}}>Página 404</h1>
                 <p>
