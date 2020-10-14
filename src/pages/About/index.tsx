@@ -1,7 +1,7 @@
 import React from 'react';
 import Window from '../../components/Window';
 
-import profilePic from '../../assets/img/pages/about/profile.jpeg';
+import profilePic from '../../assets/img/pages/about/profile.jpg';
 import mageHatImage from '../../assets/img/pages/home/mago.png';
 
 import './style.css';
@@ -35,7 +35,7 @@ function About() {
             <div className="left">
               <p>
                 O mago nasceu de uma brincadeira durante o Mega Hack 3.0 da Shawee, do qual participei, no desafio da Árvore Educação. Meu parceiro de equipe e amigo nessa jornada Dev, Thiago Pederzolli, me deu o apelido 'Mago do CSS', em função das minhas habilidades com estilização.<br/><br/>
-                Aproveitando a alcunha, comecei a compartilhar conteúdo no Instagram e no LinkedIn, falando sobre propriedades e recursos do CSS. Mas ao perceber que poderia explorar outros temas, reduzi o nome a 'Mago', para que outros assuntos possam ser abordados em publicações futuras.<br/><br/>
+                Aproveitando a alcunha, comecei a compartilhar conteúdo no Instagram, no LinkedIn e no YouTube, através do meu canal, falando sobre propriedades e recursos do CSS. Mas ao perceber que poderia explorar outros temas, reduzi o nome a 'Mago', para que outros assuntos possam ser abordados em publicações futuras.<br/><br/>
                 A ideia é usar essa marca pessoal para replicar conhecimento e compartilhar o aprendizado com outros desevolvedores que, assim como eu, têm trilhado essa estrada do desenvolvimento Web.<br/><br/>
                 <br/><br/>
               </p>

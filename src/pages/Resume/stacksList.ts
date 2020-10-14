@@ -24,6 +24,15 @@ const stacksList = [
         name: 'TypeScript'
     },
     {
+        icon: 'https://devicon.dev/devicon.git/icons/nodejs/nodejs-original.svg',
+        name: 'Node.js'
+    },
+    
+    {
+        icon: 'https://devicon.dev/devicon.git/icons/express/express-original.svg',
+        name: 'Express'
+    },
+    {
         icon: 'https://devicons.github.io/devicon/devicon.git/icons/git/git-original.svg',
         name: 'Git'
     },

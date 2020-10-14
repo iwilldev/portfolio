@@ -9,7 +9,7 @@
     width: 100%;
 }
 
-.home-container h3,
+.home-container h1,
 .home-container p {
     color: var(--extra-white);
 }
@@ -22,7 +22,7 @@
     max-width: 30rem;
 }
 
-.home-container h3 {
+.home-container h1 {
     margin: 4rem 0;
     font-size: 3rem;
 }
