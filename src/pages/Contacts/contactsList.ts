@@ -12,6 +12,18 @@ const contactList = [
         link: 'https://wa.me/552141055344'
     },
     {
+        image: '/assets/img/pages/contacts/github.svg',
+        label: 'euwilliamgoncalves',
+        action: 'GitHub',
+        link: 'https://github.com/euwilliamgoncalves'
+    },
+    {
+        image: '/assets/img/pages/contacts/linkedin.svg',
+        label: 'euwilliamgoncalves',
+        action: 'LinkedIn',
+        link: 'https://www.linkedin.com/in/euwilliamgoncalves/'
+    },
+    {
         image: '/assets/img/pages/contacts/instagram.svg',
         label: '@magodocss',
         action: 'Instagram',
@@ -34,18 +46,6 @@ const contactList = [
         label: '@quemmevuementiu',
         action: 'Instagram Pessoal',
         link: 'https://www.instagram.com/quemmevuementiu'
-    },
-    {
-        image: '/assets/img/pages/contacts/linkedin.svg',
-        label: 'euwilliamgoncalves',
-        action: 'LinkedIn',
-        link: 'https://www.linkedin.com/in/euwilliamgoncalves/'
-    },
-    {
-        image: '/assets/img/pages/contacts/codepen.svg',
-        label: 'euwilliamgoncalves',
-        action: 'CodePen',
-        link: 'https://codepen.io/euwilliamgoncalves'
     }
 ]
 
