@@ -150,6 +150,25 @@ const portfolioList = [
         link: ""
     },
     {
+        id: "calculadora-javascript",
+        type: "código",
+        stack: "JavaScript",
+        stkimg: "https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg",
+        title: "calculadora com javascript",
+        description: `Calculadora simples, criada com HTML, CSS e JavaScript.`,
+        image: "/assets/img/portfolio/goodbye31/03/project.png",
+        secondTitle: "ferramentas",
+        secondDescription: `Criado com: JavaScript, para validações de entradas de dados. Biblioteca math.js, que calcula a expressão exibida na tela. CSS Grid, para distribuir e organizar o layout da tela e dos botões.`,
+        secondImage: "/assets/img/portfolio/goodbye31/js.jpg",
+        thirdTitle: "como funciona?",
+        thirdDescription: `Os dados digitados são armazenados e exibidos em uma 'textarea' (tela da calculadora) alterando o 'value' do elemento. Quando um número é digitado, é feita uma validação (através da função inputNumber()), que verifica se o conteúdo na tela é o resultado de uma expressão recém-calculada. Caso positivo, o número substitui o resultado, iniciando uma nova expressão. Caso contrário, como na presença de um número seguido de um operador, o número é inserido dando continuidade a expressão. Para a inclusão de um operador, é feita uma outra validação (através da função inputOperator()) que evita a inserção seguida de mais de um operador. O botão 'C' executa a função clearScreen() que reseta a calculadora para seu estado inicial. O botão '=' executa a função displayResult(), que utiliza o método 'evaluate()' da biblioteca Math.js, para transformar a string com os números e operadores em uma expressão, retornando seu resultado, além de informar que o conteúdo na tela é um resultado, reiniciando a primeira validação.`,
+        thirdImage: "/assets/img/portfolio/goodbye31/03/project.png",
+        fourthTitle: "projeto 3 de 31",
+        fourthDescription: `Pra celebrar minha transição para os 32 anos, em novembro de 2020, iniciei o Goodbye.31, um desafio que se consiste em construir uma aplicação web todo dia, por 31 dias.`,
+        fourthImage: "/assets/img/portfolio/goodbye31/goodbye31.jpg",
+        link: 'https://g31-calculadora-javascript.now.sh/'
+    },
+    {
         id: "gerador-de-flexbox",
         type: "código",
         stack: "React",
@@ -164,7 +183,7 @@ const portfolioList = [
         thirdDescription: `No controller, cada 'select' altera (através da 'onChange') uma propriedade (aplicada com spread operator) a um objeto armazenado em um estado (criado com 'useState') em sintaxe JavaScript. Esses estilos são aplicados ao container do preview através de sua propriedade 'style'. Esse objeto é percorrido, dentro de um hook de efeito, e retorna um array com as propriedades (que são reescritas de camelCase para kebab-case, através do método 'replace()') e seus valores, quando não forem padrão, concatenando os textos no formato CSS, que é impresso na tela, com quebra de linha, utilizando o React HTML Parser.`,
         thirdImage: "/assets/img/portfolio/goodbye31/02/project.png",
         fourthTitle: "projeto 2 de 31",
-        fourthDescription: `Pra celebrar minha transição para os 32 anos, iniciei o Goodbye.31, um desafio que se consiste em construir uma aplicação web todo dia, por 31 dias.`,
+        fourthDescription: `Pra celebrar minha transição para os 32 anos, em novembro de 2020, iniciei o Goodbye.31, um desafio que se consiste em construir uma aplicação web todo dia, por 31 dias.`,
         fourthImage: "/assets/img/portfolio/goodbye31/goodbye31.jpg",
         link: 'https://g31-flexbox-generator.vercel.app/'
     },
@@ -183,7 +202,7 @@ const portfolioList = [
         thirdDescription: `Dentro da instância Vue, foram criados os dados a serem utilizados na aplicação, bem como os métodos que manipulam esses dados e interagem com o storage. A comunicação em tempo real com o storage do Firebase, através dos seus métodos nativos, fica dentro do hook 'created', que é executado a cada nova renderização da aplicação, além de atualizar as informações na tela através dos dados recebidos do storage, mantendo o chat com um ótimo tempo de resposta.`,
         thirdImage: "/assets/img/portfolio/goodbye31/01/project.png",
         fourthTitle: "projeto 1 de 31",
-        fourthDescription: `Pra celebrar minha transição para os 32 anos, iniciei o Goodbye.31, um desafio que se consiste em construir uma aplicação web todo dia, por 31 dias.`,
+        fourthDescription: `Pra celebrar minha transição para os 32 anos, em novembro de 2020, iniciei o Goodbye.31, um desafio que se consiste em construir uma aplicação web todo dia, por 31 dias.`,
         fourthImage: "/assets/img/portfolio/goodbye31/goodbye31.jpg",
         link: 'https://g31-chat-vue-firebase.now.sh/'
     },
