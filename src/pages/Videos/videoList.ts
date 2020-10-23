@@ -1,5 +1,11 @@
 const videoList = [
     {
+        id: "04",
+        title: "css flexbox em menos de 20 minutos",
+        image: "https://img.youtube.com/vi/rvRTNzC_q3c/maxresdefault.jpg",
+        link: "https://www.youtube.com/watch?v=rvRTNzC_q3c"
+    },
+    {
         id: "03",
         title: "next level week 3",
         image: "https://img.youtube.com/vi/5bgL8CeRrAE/maxresdefault.jpg",
