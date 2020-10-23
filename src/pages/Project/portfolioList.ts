@@ -153,7 +153,7 @@ const portfolioList = [
         id: "lista-de-compras",
         type: "código",
         stack: "Vue.js",
-        stkimg: "https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg",
+        stkimg: "https://devicons.github.io/devicon/devicon.git/icons/vuejs/vuejs-original.svg",
         title: "lista de compras com vue.js",
         description: `Loja do Mago, um shopping fake que vende itens e habilidades para desenvolvedores. Construído com VueJs, foi feita para explorar conceitos de reatividade, renderização condicional, binding, entre outros recursos como a criação e utilização de métodos na instância utilizada.`,
         image: "/assets/img/portfolio/goodbye31/04/project.png",
