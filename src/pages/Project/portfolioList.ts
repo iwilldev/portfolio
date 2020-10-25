@@ -150,6 +150,25 @@ const portfolioList = [
         link: ""
     },
     {
+        id: "pomodoro-timer",
+        type: "código",
+        stack: "JavaScript",
+        stkimg: "https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg",
+        title: "pomodoro timer",
+        description: `A aplicação permite a customização dos tempos de foco e de pausa, individualmente. É possível iniciar e pausar o timer, além de reiniciar a página ao estado original.`,
+        image: "/assets/img/portfolio/goodbye31/06/project.png",
+        secondTitle: "ferramentas",
+        secondDescription: `Criado com: JavaScript e CSS Flexbox`,
+        secondImage: "/assets/img/portfolio/goodbye31/js.jpg",
+        thirdTitle: "como funciona?",
+        thirdDescription: `Os elementos de texto dos timers, os botões e os inputs do tempo são selecionados no JavaScript com o método 'querySelector'. Os botões executam funções através de Event Listeners que resetam (botão Reset) a página, além de iniciar (botão Iniciar) ou interromper (botão Pausar) a função 'timer', que executa uma série de condicionais nas propriedades 'innerText' dos elementos de texto, realizando o decremento adequado a funcionalidade de timer, manipulando diretamente os dados dos elementos no DOM. Ao fim dos ciclos de foco e pausa, é exibido um alerta ao usuário, para que ele possa dar sequência ao próximo ciclo. Finalizados os dois, é feito um incremento no contador de ciclos.`,
+        thirdImage: "/assets/img/portfolio/goodbye31/06/project.png",
+        fourthTitle: "projeto 6 de 31",
+        fourthDescription: `Pra celebrar minha transição para os 32 anos, em novembro de 2020, iniciei o Goodbye.31, um desafio que se consiste em construir uma aplicação web todo dia, por 31 dias.`,
+        fourthImage: "/assets/img/portfolio/goodbye31/goodbye31.jpg",
+        link: 'https://g31-pomodoro-timer.now.sh/'
+    },
+    {
         id: "app-clima",
         type: "código",
         stack: "React",
