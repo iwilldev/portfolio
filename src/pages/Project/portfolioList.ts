@@ -150,6 +150,25 @@ const portfolioList = [
         link: ""
     },
     {
+        id: "painel-drag-and-drop",
+        type: "código",
+        stack: "Vue.js",
+        stkimg: "https://devicons.github.io/devicon/devicon.git/icons/vuejs/vuejs-original.svg",
+        title: "painel drag and drop",
+        description: `Painel no estilo kan ban, com três estados para as atividades, que podem ser incluídas através do formulário do cabeçalho e movidas de um quadro para o outro.`,
+        image: "/assets/img/portfolio/goodbye31/07/project.png",
+        secondTitle: "ferramentas",
+        secondDescription: `Criado com: Vue.js (Vue CLI) e CSS Flexbox`,
+        secondImage: "/assets/img/portfolio/goodbye31/vue.jpg",
+        thirdTitle: "como funciona?",
+        thirdDescription: `O formulário do topo usa um input com v-model para a variável 'newCard' que é adicionada, através do método 'addCard()' ao array 'cards', que é renderizado no primeiro quadro, através da diretiva v-for. Quando um card é selecionado, sua ID é armazenada no Local Storage e seu display é alterado para 'none', através de um método no componente 'Card'. Quando o usuário solta o card em um quadro, um método do componente 'Board' é executado, utilizando a ID armazenada no Local Storage para assumir o card como filho, através do método 'appendChild()'. `,
+        thirdImage: "/assets/img/portfolio/goodbye31/07/project.png",
+        fourthTitle: "projeto 6 de 31",
+        fourthDescription: `Pra celebrar minha transição para os 32 anos, em novembro de 2020, iniciei o Goodbye.31, um desafio que se consiste em construir uma aplicação web todo dia, por 31 dias.`,
+        fourthImage: "/assets/img/portfolio/goodbye31/goodbye31.jpg",
+        link: 'https://g31-pomodoro-timer.now.sh/'
+    },
+    {
         id: "pomodoro-timer",
         type: "código",
         stack: "JavaScript",
