@@ -166,7 +166,7 @@ const portfolioList = [
         fourthTitle: "projeto 6 de 31",
         fourthDescription: `Pra celebrar minha transição para os 32 anos, em novembro de 2020, iniciei o Goodbye.31, um desafio que se consiste em construir uma aplicação web todo dia, por 31 dias.`,
         fourthImage: "/assets/img/portfolio/goodbye31/goodbye31.jpg",
-        link: 'https://g31-pomodoro-timer.now.sh/'
+        link: 'https://g31-painel-drag-and-drop.now.sh/'
     },
     {
         id: "pomodoro-timer",
