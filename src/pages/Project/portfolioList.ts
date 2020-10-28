@@ -163,7 +163,7 @@ const portfolioList = [
         thirdTitle: "como funciona?",
         thirdDescription: `Os elementos do DOM são capturados no script através do método 'querySelector', além de declaradas a medida da circunferência do círculo animado ao redor do play (outlineLength) e o tempo de duração da aplicação em modo play (fakeDuration). Para mudar o tema ambiente, utiliza-se um forEach nos botões capturados e atribui-se um Event Listener (pointerdown) para cada um, que altera as sources do video e do som, através dos atributos 'data-video' e 'data-sound' nos elementos HTML. Para mudar o tempo, também é utilizado um forEach nos botões, seguidos de Listeners (pointerdown) que alteram a 'fakeDuration', através do atributo 'data-time' nos elementos, além de alterar o texto do relógio regressivo. No botão play, também há um Event Listener (pointerdown), que executa a função 'checkPlaying()', verificando se o som está pausado ou em execução, tomando a ação correspondente com o vídeo de fundo, o som selecionado e o ícone do botão, que alterna entre play e pause. Por último, é executado o método 'ontimeupdate', no elemento de áudio, que decrementa o relógio, anima o círculo ao redor do botão e retorna o app ao estado original quando a 'fakeDuration' é menor que o tempo de execução, com vídeo e áudio pausados e botão habilitado como play.`,
         thirdImage: "/assets/img/portfolio/goodbye31/09/project.png",
-        fourthTitle: "projeto 6 de 31",
+        fourthTitle: "projeto 9 de 31",
         fourthDescription: `Pra celebrar minha transição para os 32 anos, em novembro de 2020, iniciei o Goodbye.31, um desafio que se consiste em construir uma aplicação web todo dia, por 31 dias.`,
         fourthImage: "/assets/img/portfolio/goodbye31/goodbye31.jpg",
         link: 'https://g31-app-meditacao.now.sh/'
@@ -182,7 +182,7 @@ const portfolioList = [
         thirdTitle: "como funciona?",
         thirdDescription: `No cabeçalho, quando uma imagem é selecionada, uma função é executada através do atributo 'onChange' do input, que reseta os valores de configuração padrão (atribuindo a constante 'defaultValues' ao estado 'adjustedValues') e gera uma url temporária para a imagem que renderiza na 'img' abaixo do header. Essa imagem recebe os estilos através de um hook de efeito, que atualiza uma template com a propriedade filter e todos os valores aplicáveis através dos controles abaixo, vindos do estado 'adjustedValues'. Nos controles, os botões mudam o estado 'valuesIndex' que é utilizado para acessar os valores individuais da 'adjustedValue'. Quando o input range é alterado, o filtro selecionado nos botões é aplicado através do atributo 'onChange' desse input. Para a exportação, foi utilizada a dependência 'html-to-image', que imprime o canvas com os filtros aplicados em uma imagem JPEG.`,
         thirdImage: "/assets/img/portfolio/goodbye31/08/project.png",
-        fourthTitle: "projeto 5 de 31",
+        fourthTitle: "projeto 8 de 31",
         fourthDescription: `Pra celebrar minha transição para os 32 anos, em novembro de 2020, iniciei o Goodbye.31, um desafio que se consiste em construir uma aplicação web todo dia, por 31 dias.`,
         fourthImage: "/assets/img/portfolio/goodbye31/goodbye31.jpg",
         link: 'https://g31-editor-de-fotos.now.sh/'
@@ -201,7 +201,7 @@ const portfolioList = [
         thirdTitle: "como funciona?",
         thirdDescription: `O formulário do topo usa um input com v-model para a variável 'newCard' que é adicionada, através do método 'addCard()' ao array 'cards', que é renderizado no primeiro quadro, através da diretiva v-for. Quando um card é selecionado, sua ID é armazenada no Local Storage e seu display é alterado para 'none', através de um método no componente 'Card'. Quando o usuário solta o card em um quadro, um método do componente 'Board' é executado, utilizando a ID armazenada no Local Storage para assumir o card como filho, através do método 'appendChild()'. `,
         thirdImage: "/assets/img/portfolio/goodbye31/07/project.png",
-        fourthTitle: "projeto 6 de 31",
+        fourthTitle: "projeto 7 de 31",
         fourthDescription: `Pra celebrar minha transição para os 32 anos, em novembro de 2020, iniciei o Goodbye.31, um desafio que se consiste em construir uma aplicação web todo dia, por 31 dias.`,
         fourthImage: "/assets/img/portfolio/goodbye31/goodbye31.jpg",
         link: 'https://g31-painel-drag-and-drop.now.sh/'
