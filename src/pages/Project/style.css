@@ -30,6 +30,10 @@
     width: 100%;
 }
 
+.project-grid h3 {
+    margin-bottom: 2rem;
+}
+
 .project-grid a {
     text-decoration: none;
     margin-top: 1rem;

@@ -8,7 +8,7 @@ import './style.css';
 
 function Portfolio() {
 
-  return (
+  return ( 
       <Window icon="/assets/img/icons/devices.svg" title="Web: Apps e Sites">
         <div className="code-content">
           <div className="code-header">
@@ -20,7 +20,7 @@ function Portfolio() {
               {portfolioList.map((item) => {
                 if (item.type === 'código') {
                   return (
-                    <PortfolioItem key={item.id} link={item.id} image={item.image} title={item.title} stack={item.stack} stackimage={item.stkimg} />
+                    <PortfolioItem key={item.id} item={item} />
                   )
                 }
                 return null;

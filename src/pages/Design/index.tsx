@@ -19,7 +19,7 @@ function Design() {
               {portfolioList.map((item) => {
                 if (item.type === 'design') {
                   return (
-                    <PortfolioItem key={item.id} link={item.id} image={item.image} title={item.title} />
+                    <PortfolioItem key={item.id} item={item} />
                   )
                 }
                 return null;

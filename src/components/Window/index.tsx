@@ -7,6 +7,7 @@ import closeButtonImg from '../../assets/img/ui/close.svg';
 interface WindowProps {
   icon: string;
   title: string;
+  type?: string;
 }
 
 const Window: React.FunctionComponent<WindowProps> = (props) => {
@@ -29,7 +30,13 @@ const Window: React.FunctionComponent<WindowProps> = (props) => {
           src={closeButtonImg} 
           onClick={() => {
             if (window.location.href.includes('project')) {
-              history.goBack();
+              if (props.type === "código") {
+                history.push("/web");
+              } else if (props.type === "design") {
+                history.push("/design");
+              } else {
+                history.push("/");
+              }
             } else {
               history.push("/");
             }

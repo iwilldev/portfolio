@@ -1,69 +1,62 @@
 import React, { useState, useEffect } from 'react';
 import Window from '../../components/Window';
 
-import portfolioList from './portfolioList';
-
 import './style.css';
 
-function Project() {
+function Project(props: any) {
 
-  const [projectId, setProjectId] = useState('');
   const [projectTitle, setProjectTitle] = useState('');
   const href = window.location.pathname.split('/');
   const id = href[2];
+
+  useEffect(() => {
+    if (props.location.state) {
+      setProjectTitle(props.location.state.title)
+    } else {
+      setProjectTitle('ops! volte e escolha um projeto')
+    }
+  }, [props.location.state]);
   
   useEffect(() => {
-    setProjectId(id);
-    portfolioList.map((item) => {
-      if (item.id === projectId) {
-        setProjectTitle(item.title);
-      }
-      return null;
-    });
-    
-  }, [id, projectId]);
+    console.log(id);
+  }, [id]);
 
   return (
-      <Window icon="/assets/img/icons/ink.svg" title={projectTitle}>
+      <Window icon="/assets/img/icons/ink.svg" title={projectTitle} type={props.location.state ? props.location.state.type : null}>
         <div className="project-content">
           <div className="project-container">
             <div className="project-header">
-              <h1>{projectTitle}</h1>
+              <h1>{ projectTitle }</h1>
             </div>
-            <div className="project-grid">
-              {
-                portfolioList.map((item) => {
-                  if (item.id === projectId) {
-                    return (
-                      <div key={item.id} className="fragment">
-                        <img src={item.image} alt={'Imagem do projeto' + item.title}/>
-                        <span>
-                          <p>{item.description}</p>
-                          {item.link !== '' && <a href={item.link} rel="noopener noreferrer" target="_blank">Ver mais</a>}
-                          {item.stack !== '' && <div className="stack-container"><h5>Principal Stack:</h5> <img src={item.stkimg} alt={item.stack} /></div> }
-                        </span>
-                        <img src={item.secondImage} alt={'Imagem do projeto' + item.title}/>
-                        <span>
-                          <h3>{item.secondTitle}</h3>
-                          <p>{item.secondDescription}</p>
-                        </span>
-                        <img src={item.thirdImage} alt={'Imagem do projeto' + item.title}/>
-                        <span>
-                          <h3>{item.thirdTitle}</h3>
-                          <p>{item.thirdDescription}</p>
-                        </span>
-                        <img src={item.fourthImage} alt={'Imagem do projeto' + item.title}/>
-                        <span>
-                          <h3>{item.fourthTitle}</h3>
-                          <p>{item.fourthDescription}</p>
-                        </span>
-                      </div>
-                    )
-                  }
-                  return null;
-                })
-              }
+            {
+              props.location.state 
+              ? <div className="project-grid">
+              <div className="fragment">
+                <img src={props.location.state.image} alt={'Imagem do projeto' + props.location.state.title}/>
+                <span>
+                  <p>{props.location.state.description}</p>
+                  {props.location.state.link !== '' && <a href={props.location.state.link} rel="noopener noreferrer" target="_blank">Ver mais</a>}
+                  {props.location.state.stack !== '' && <div className="stack-container"><h5>Principal Stack:</h5> <img src={props.location.state.stkimg} alt={props.location.state.stack} /></div> }
+                </span>
+                <img src={props.location.state.secondImage} alt={'Imagem do projeto' + props.location.state.title}/>
+                <span>
+                  <h3>{props.location.state.secondTitle}</h3>
+                  <p>{props.location.state.secondDescription}</p>
+                </span>
+                <img src={props.location.state.thirdImage} alt={'Imagem do projeto' + props.location.state.title}/>
+                <span>
+                  <h3>{props.location.state.thirdTitle}</h3>
+                  <p>{props.location.state.thirdDescription}</p>
+                </span>
+                <img src={props.location.state.fourthImage} alt={'Imagem do projeto' + props.location.state.title}/>
+                <span>
+                  <h3>{props.location.state.fourthTitle}</h3>
+                  <p>{props.location.state.fourthDescription}</p>
+                </span>
+              </div>
             </div>
+            : null
+            }
           </div>
         </div>
       </Window>
