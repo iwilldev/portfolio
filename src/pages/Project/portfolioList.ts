@@ -150,6 +150,25 @@ const portfolioList = [
         link: ""
     },
     {
+        id: "orion",
+        type: "código",
+        stack: "React",
+        stkimg: "https://devicons.github.io/devicon/devicon.git/icons/react/react-original.svg",
+        title: "orion",
+        description: `Utilizando a dependência 'react-calendar', a aplicação faz requisições a API 'Astronomy Picture of The Day' da NASA, retornando a imagem e um link para visualização em alta resolução.`,
+        image: "./assets/img/portfolio/goodbye31/17/project.png",
+        secondTitle: "ferramentas",
+        secondDescription: `React, react-calendar, Axios, API 'APOD' da NASA.`,
+        secondImage: "./assets/img/portfolio/goodbye31/react.png",
+        thirdTitle: "como funciona?",
+        thirdDescription: `Ao ser iniciada, a aplicação tem a data atual (new Date()) como valor do estado 'currentDate'. Esse valor é utilizado em um hook de efeito (useEffect) que tem o próprio 'currentDate' como dependência. A data é formatada usando três variáveis ('fullYear', 'month' e 'date') que são declaradas com os respectivos getters ('getFullYear', 'getMonth' e 'getDate') da instância 'Date()'. Esse valor formatado é declarado na constante 'fullDate' que é utilizada em uma template string que faz a requisição a API, utilizando o Axios. Na resposta, o objeto 'response.data' é atribuído ao estado 'image', que serve como condicional para renderizar o conteúdo dentro da div '.container': o título, o link para a imagem e a imagem em si, que são gerados com os valores das propriedades '.title', '.hdurl' e '.url' do objeto recebido da API. No menu da aplicação, há um calendário gerado através da 'react-calendar' que, ao ter um dia selecionado pelo usuário, altera o estado 'currentDate' para a data selecionada, reiniciando o script do useEffect citado acima e apresentando uma nova imagem na tela.`,
+        thirdImage: "./assets/img/portfolio/goodbye31/17/project.png",
+        fourthTitle: "projeto 17 de 31",
+        fourthDescription: `Pra celebrar minha transição para os 32 anos, em novembro de 2020, iniciei o Goodbye.31, um desafio que se consiste em construir uma aplicação web todo dia, por 31 dias.`,
+        fourthImage: "./assets/img/portfolio/goodbye31/goodbye31.jpg",
+        link: 'https://g31-orion.now.sh/'
+    },
+    {
         id: "form-validation",
         type: "código",
         stack: "Vue.js",
