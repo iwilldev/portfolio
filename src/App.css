@@ -23,11 +23,12 @@ html {font-size: 100%;}
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
   letter-spacing: 0.1rem;
 }
 
-p, a, q {
+p, a, q, small {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
   font-size: 1rem;

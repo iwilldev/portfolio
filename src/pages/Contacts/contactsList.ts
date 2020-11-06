@@ -1,37 +1,43 @@
 const contactList = [
     {
-        image: '/assets/img/pages/contacts/phone.svg',
-        label: '021 4105 5344',
-        action: 'Telefone',
-        link: 'tel:+552141055344'
-    },
-    {
         image: '/assets/img/pages/contacts/whatsapp.svg',
-        label: '021 4105 5344',
+        label: '021 96544 3935',
         action: 'WhatsApp',
-        link: 'https://wa.me/552141055344'
-    },
-    {
-        image: '/assets/img/pages/contacts/github.svg',
-        label: 'euwilliamgoncalves',
-        action: 'GitHub',
-        link: 'https://github.com/euwilliamgoncalves'
-    },
-    {
-        image: '/assets/img/pages/contacts/linkedin.svg',
-        label: 'euwilliamgoncalves',
-        action: 'LinkedIn',
-        link: 'https://www.linkedin.com/in/euwilliamgoncalves/'
+        link: 'https://wa.me/5521965443935'
     },
     {
         image: '/assets/img/pages/contacts/instagram.svg',
-        label: '@magodocss',
+        label: 'william.mago',
         action: 'Instagram',
-        link: 'https://medium.com/@euwilliamgoncalves'
+        link: 'https://www.instagram.com/william.mago'
+    },
+    {
+        image: '/assets/img/pages/contacts/github.svg',
+        label: 'williammago',
+        action: 'GitHub',
+        link: 'https://github.com/williammago'
+    },
+    {
+        image: '/assets/img/pages/contacts/linkedin.svg',
+        label: 'williammago',
+        action: 'LinkedIn',
+        link: 'https://www.linkedin.com/in/williammago/'
+    },
+    {
+        image: '/assets/img/pages/contacts/rocketseat.svg',
+        label: 'williammago',
+        action: 'Rocketseat',
+        link: 'https://app.rocketseat.com.br/me/williammago'
+    },
+    {
+        image: '/assets/img/pages/contacts/dev-to.svg',
+        label: 'williammago',
+        action: 'DEV',
+        link: 'https://dev.to/williammago'
     },
     {
         image: '/assets/img/pages/contacts/youtube.png',
-        label: 'Mago do CSS',
+        label: 'William Mago',
         action: 'Canal no YouTube',
         link: 'https://youtube.com/channel/UCXJIa44t_QW1dWojbIPxXKg'
     },
@@ -40,12 +46,6 @@ const contactList = [
         label: 'euwilliamgoncalves@',
         action: 'gmail.com',
         link: 'mailto:euwilliamgoncalves@gmail.com'
-    },
-    {
-        image: '/assets/img/pages/contacts/instagram.svg',
-        label: '@quemmevuementiu',
-        action: 'Instagram Pessoal',
-        link: 'https://www.instagram.com/quemmevuementiu'
     }
 ]
 

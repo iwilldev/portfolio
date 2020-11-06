@@ -25,7 +25,7 @@ const Window: React.FunctionComponent<WindowProps> = (props) => {
     <div className={windowClasses}>
       <header className="window-header">
         <img src={props.icon} alt="Sobre Mim"/>
-        <p>{props.title}</p>
+        <small>{props.title}</small>
         <img 
           src={closeButtonImg} 
           onClick={() => {

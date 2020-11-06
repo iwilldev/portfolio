@@ -16,7 +16,7 @@ function Videos() {
             <div className="code-content">
             <div className="code-header">
                 <h1>Vídeos</h1>
-                <p>Assista meus vídeos em meu Canal 'Mago do CSS' no YouTube</p>
+                <p>Assista meus vídeos em meu Canal no YouTube</p>
             </div>
             <div className="code-container">
                 

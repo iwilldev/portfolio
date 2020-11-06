@@ -34,7 +34,7 @@
     justify-content: space-between;
 } 
 
-.window-header p {
+.window-header small {
     color: var(--extra-white);
     margin-right: auto;
     margin-left: 0.5rem;

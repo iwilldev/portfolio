@@ -36,7 +36,7 @@ function Project(props: any) {
                 <span>
                   <p>{props.location.state.description}</p>
                   {props.location.state.link !== '' && <a href={props.location.state.link} rel="noopener noreferrer" target="_blank">Ver mais</a>}
-                  {props.location.state.stack !== '' && <div className="stack-container"><h5>Principal Stack:</h5> <img src={props.location.state.stkimg} alt={props.location.state.stack} /></div> }
+                  {props.location.state.stack !== '' && <div className="stack-container"><p>Principal Ferramenta:</p> <img src={props.location.state.stkimg} alt={props.location.state.stack} /></div> }
                 </span>
                 <img src={props.location.state.secondImage} alt={'Imagem do projeto' + props.location.state.title}/>
                 <span>
