@@ -150,6 +150,25 @@ const portfolioList = [
         link: ""
     },
     {
+        id: "are-you-human",
+        type: "código",
+        stack: "JavaScript",
+        stkimg: "https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg",
+        title: "are you human? (captcha)",
+        description: `Verificador por toque/clique, no estilo CAPTCHA. Quando o usuário pressiona a área, uma barra enche da esquerda para a direita, até o fim da caixa. O botão de envio só é liberado se o toque for interrompido com a ponta da barra dentro da área vermelha, que aparece em posições aleatórias, a cada tentativa.`,
+        image: "./assets/img/portfolio/goodbye31/18/project.png",
+        secondTitle: "ferramentas",
+        secondDescription: `JavaScript e CSS`,
+        secondImage: "./assets/img/portfolio/goodbye31/js.jpg",
+        thirdTitle: "como funciona?",
+        thirdDescription: `No início do script, seis constantes são criadas, a partir dos elementos da página, utilizando o método 'querySelector: 'submitButton', que é o botão de envio do formulário, 'openTestButton', que é o botão que habilita o teste, 'testMessage' e 'testBox' que fazem parte do validador, sendo a mensagem de orientação e a área de toque, e 'bar' e 'trigger', que são a barra que "enche" e a área onde ela deve ser interrompida, respectivamente. No 'openTestButton' há um Listener (pointerdown) que remove a classe 'hidden' da 'testBox' e da 'testMessage', além de adicioná-la a si, tornando-se invisível enquanto habilita a visualização da área de teste. Na 'testBox' há dois listeners. O 'pointerdown' exibe o 'trigger' e o posiciona aleatoriamente, além de atribuir o valor 'true' a variável 'isPressed' e executar a função 'fillBar()', que usa um 'setInterval' para aumentar a largura da barra, sendo interrompido quando a barra chega ao fim da 'testBox', ou quando a condição de 'isPressed' for 'false'. Já no 'pointerup', a 'isPressed' recebe o valor 'false' e é feita uma condicional para verificar se a barra "parou" dentro do 'trigger'. Caso positivo, a 'testMessage' recebe 'Verificado!', através do 'innerHTML', a 'testBox' recebe a classe 'hidden' e o 'submitButton' é habilitado. Se a condição for negativa, os elementos são resetados para uma nova tentativa.`,
+        thirdImage: "./assets/img/portfolio/goodbye31/18/project.png",
+        fourthTitle: "projeto 18 de 31",
+        fourthDescription: `Pra celebrar minha transição para os 32 anos, em novembro de 2020, iniciei o Goodbye.31, um desafio que se consiste em construir uma aplicação web todo dia, por 31 dias.`,
+        fourthImage: "./assets/img/portfolio/goodbye31/goodbye31.jpg",
+        link: 'https://g31-are-you-human.now.sh/'
+    },
+    {
         id: "orion",
         type: "código",
         stack: "React",
